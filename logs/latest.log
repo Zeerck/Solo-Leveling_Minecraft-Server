@@ -1,0 +1,281 @@
+[17:31:51] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:31:52] [ServerMain/INFO]: Loaded 1370 recipes
+[17:31:53] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[17:31:53] [Server thread/INFO]: Loading properties
+[17:31:53] [Server thread/INFO]: This server is running CraftBukkit version 4457-Spigot-73860e0-f0c8dd3 (MC: 1.21.4) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[17:31:53] [Server thread/INFO]: *** This version of Spigot contains changes to some enums. If you notice that plugins no longer work after updating, please report this to the developers of those plugins first. ***
+[17:31:53] [Server thread/INFO]: *** If you cannot update those plugins, you can try setting `settings.compatibility.enum-compatibility-mode` to `true` in `bukkit.yml`. ***
+[17:31:54] [Server thread/INFO]: Debug logging is disabled
+[17:31:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:31:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:31:54] [Server thread/INFO]: Default game type: SURVIVAL
+[17:31:54] [Server thread/INFO]: Generating keypair
+[17:31:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:31:54] [Server thread/INFO]: Using default channel type
+[17:31:54] [Server thread/INFO]: [Spawntp] Loading 1 libraries... please wait
+[17:31:54] [Server thread/INFO]: [Spawntp] Loaded library C:\Users\doros\Desktop\Solo-Leveling_Minecraft-Server\libraries\com\google\inject\guice\5.1.0\guice-5.1.0.jar
+[17:31:54] [Server thread/INFO]: [Spawntp] Loaded library C:\Users\doros\Desktop\Solo-Leveling_Minecraft-Server\libraries\javax\inject\javax.inject\1\javax.inject-1.jar
+[17:31:54] [Server thread/INFO]: [Spawntp] Loaded library C:\Users\doros\Desktop\Solo-Leveling_Minecraft-Server\libraries\aopalliance\aopalliance\1.0\aopalliance-1.0.jar
+[17:31:54] [Server thread/INFO]: [Spawntp] Loaded library C:\Users\doros\Desktop\Solo-Leveling_Minecraft-Server\libraries\com\google\guava\guava\30.1-jre\guava-30.1-jre.jar
+[17:31:54] [Server thread/INFO]: [Spawntp] Loaded library C:\Users\doros\Desktop\Solo-Leveling_Minecraft-Server\libraries\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar
+[17:31:54] [Server thread/INFO]: [Spawntp] Loaded library C:\Users\doros\Desktop\Solo-Leveling_Minecraft-Server\libraries\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+[17:31:54] [Server thread/INFO]: [Spawntp] Loaded library C:\Users\doros\Desktop\Solo-Leveling_Minecraft-Server\libraries\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar
+[17:31:54] [Server thread/INFO]: [Spawntp] Loaded library C:\Users\doros\Desktop\Solo-Leveling_Minecraft-Server\libraries\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar
+[17:31:54] [Server thread/INFO]: [Spawntp] Loaded library C:\Users\doros\Desktop\Solo-Leveling_Minecraft-Server\libraries\com\google\errorprone\error_prone_annotations\2.3.4\error_prone_annotations-2.3.4.jar
+[17:31:54] [Server thread/INFO]: [Spawntp] Loaded library C:\Users\doros\Desktop\Solo-Leveling_Minecraft-Server\libraries\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar
+[17:31:54] [Server thread/INFO]: [AuraSkills] Loading AuraSkills v2.2.8
+[17:31:54] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.3.10+7004-768a436
+[17:31:54] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1da555a9]
+[17:31:54] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
+[17:31:55] [Server thread/INFO]: [Spawntp] Loading Spawntp v4.0.4
+[17:31:55] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.10+7004-768a436
+[17:31:55] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[17:31:55] [Server thread/INFO]: WEPIF: Updated config file
+[17:31:55] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[17:31:55] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_4.PaperweightAdapter as the Bukkit adapter
+[17:31:56] [Server thread/INFO]: [WorldEdit] ====================================================
+[17:31:56] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[17:31:56] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[17:31:56] [Server thread/INFO]: [WorldEdit]   
+[17:31:56] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[17:31:56] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[17:31:56] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[17:31:56] [Server thread/INFO]: [WorldEdit]   
+[17:31:56] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[17:31:56] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[17:31:56] [Server thread/INFO]: [WorldEdit]   
+[17:31:56] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[17:31:56] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[17:31:56] [Server thread/INFO]: [WorldEdit]   
+[17:31:56] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[17:31:56] [Server thread/INFO]: [WorldEdit] ====================================================
+[17:31:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:31:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:31:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:31:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:31:56] [Server thread/INFO]: Preparing level "world"
+[17:31:56] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:31:56] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:31:56] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:31:56] [Server thread/INFO]: View Distance: 24
+[17:31:56] [Server thread/INFO]: Simulation Distance: 16
+[17:31:56] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:31:56] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:31:56] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:31:56] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:31:56] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:31:56] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:31:56] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:31:56] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:31:56] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:31:56] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:31:56] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:31:56] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:31:56] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:31:56] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:31:56] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:31:56] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:31:56] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:31:56] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:31:56] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:31:56] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:31:56] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:31:56] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:31:56] [Server thread/INFO]: Max TNT Explosions: 100
+[17:31:56] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:31:56] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:31:56] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:31:56] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:31:56] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:31:56] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:31:56] [Server thread/INFO]: Mob Spawn Range: 6
+[17:31:56] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:31:57] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:31:57] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:31:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:31:57] [Server thread/INFO]: View Distance: 24
+[17:31:57] [Server thread/INFO]: Simulation Distance: 16
+[17:31:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:31:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:31:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:31:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Max TNT Explosions: 100
+[17:31:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:31:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:31:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:31:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:31:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:31:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:31:57] [Server thread/INFO]: Mob Spawn Range: 6
+[17:31:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:31:57] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:31:57] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[17:31:57] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:31:57] [Server thread/INFO]: View Distance: 24
+[17:31:57] [Server thread/INFO]: Simulation Distance: 16
+[17:31:57] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:31:57] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:31:57] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:31:57] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Potato Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Vine Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[17:31:57] [Server thread/INFO]: Max TNT Explosions: 100
+[17:31:57] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[17:31:57] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[17:31:57] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:31:57] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[17:31:57] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:31:57] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[17:31:57] [Server thread/INFO]: Mob Spawn Range: 6
+[17:31:57] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:31:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:31:57] [Server thread/INFO]: Time elapsed: 32 ms
+[17:31:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:31:58] [Worker-Main-9/INFO]: Preparing spawn area: 100%
+[17:31:58] [Worker-Main-9/INFO]: Preparing spawn area: 100%
+[17:31:58] [Server thread/INFO]: Time elapsed: 579 ms
+[17:31:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:31:58] [Worker-Main-3/INFO]: Preparing spawn area: 100%
+[17:31:58] [Server thread/INFO]: Time elapsed: 213 ms
+[17:31:58] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.2.8
+[17:31:58] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[17:31:59] [Server thread/INFO]: [AuraSkills] Loaded 151 config options in 11 ms
+[17:31:59] [Server thread/INFO]: [NBTAPI] Found Minecraft: v1_21_R3! Trying to find NMS support
+[17:31:59] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_21_R3' loaded!
+[17:31:59] [Server thread/INFO]: [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[17:31:59] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[17:31:59] [Server thread/INFO]: [Spawntp] Enabling Spawntp v4.0.4
+[17:31:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:32:00] [Server thread/INFO]: Done (3.344s)! For help, type "help"
+[17:32:00] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 317 total sources
+[17:32:00] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[17:32:00] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[17:32:00] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[17:32:00] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:32:00] [Server thread/INFO]: [AuraSkills] Loaded 6 menus
+[17:32:01] [User Authenticator #1/INFO]: UUID of player Zeerck is 71aa0a0a-99a9-328a-943d-4892c565a7e4
+[17:32:01] [Server thread/INFO]: Zeerck joined the game
+[17:32:01] [Server thread/INFO]: Zeerck[/127.0.0.1:52650] logged in with entity id 15 at ([world]-0.1043208916860772, 64.0, 17.370803832285375)
+[17:34:13] [Server thread/INFO]: Zeerck issued server command: //drawsel on
+[17:35:53] [Server thread/INFO]: Zeerck issued server command: //set air
+[17:36:08] [Server thread/INFO]: Zeerck issued server command: //set air
+[17:36:18] [Server thread/INFO]: Zeerck issued server command: //set air
+[17:36:32] [Server thread/INFO]: Zeerck issued server command: //set tuff_bricks
+[17:36:51] [Server thread/INFO]: Zeerck issued server command: //set air
+[17:37:09] [Server thread/INFO]: Zeerck issued server command: //set air
+[17:37:37] [Server thread/INFO]: Zeerck issued server command: //set tuff_bricks
+[17:37:46] [Server thread/INFO]: Zeerck issued server command: //drawsel off
+[17:38:04] [Server thread/INFO]: Zeerck lost connection: Disconnected
+[17:38:04] [Server thread/INFO]: Zeerck left the game
+[17:38:05] [User Authenticator #2/INFO]: UUID of player Zeerck is 71aa0a0a-99a9-328a-943d-4892c565a7e4
+[17:38:06] [Server thread/INFO]: Zeerck joined the game
+[17:38:06] [Server thread/INFO]: Zeerck[/127.0.0.1:52712] logged in with entity id 2822 at ([world]-5.15828846024298, 67.61837514599769, 37.62283741884159)
+[17:44:17] [Server thread/INFO]: Zeerck issued server command: //drawsel щт
+[17:44:21] [Server thread/INFO]: Zeerck issued server command: //drawsel on
+[17:44:35] [Server thread/INFO]: Zeerck issued server command: //set air
+[17:44:53] [Server thread/INFO]: Zeerck issued server command: //set air
+[17:50:32] [Server thread/INFO]: Zeerck issued server command: //drawsel щаа
+[17:50:34] [Server thread/INFO]: Zeerck issued server command: //drawsel off
+[17:50:35] [Server thread/INFO]: Zeerck lost connection: Disconnected
+[17:50:35] [Server thread/INFO]: Zeerck left the game
+[17:50:36] [User Authenticator #3/INFO]: UUID of player Zeerck is 71aa0a0a-99a9-328a-943d-4892c565a7e4
+[17:50:36] [Server thread/INFO]: Zeerck joined the game
+[17:50:36] [Server thread/INFO]: Zeerck[/127.0.0.1:52779] logged in with entity id 5540 at ([world]1.8461975960611772, 64.0, 12.375605031460353)
+[17:51:26] [Server thread/INFO]: Zeerck issued server command: //copy
+[17:51:42] [Server thread/INFO]: Zeerck issued server command: //paste
+[17:51:52] [Server thread/INFO]: Zeerck issued server command: //undo
+[17:52:22] [Server thread/INFO]: Zeerck issued server command: //paste
+[17:52:36] [Server thread/INFO]: Zeerck issued server command: //undo
+[17:53:17] [Server thread/INFO]: Zeerck issued server command: //paste
+[17:53:23] [Server thread/INFO]: Zeerck issued server command: //undo
+[17:53:42] [Server thread/INFO]: Zeerck has made the advancement [Monster Hunter]
+[17:54:18] [Server thread/INFO]: Zeerck issued server command: //move
+[17:54:30] [Server thread/INFO]: Zeerck issued server command: //undo
+[17:54:34] [Server thread/INFO]: Zeerck issued server command: //paste
+[17:54:41] [Server thread/INFO]: Zeerck issued server command: //undo
+[17:54:46] [Server thread/INFO]: Zeerck issued server command: //paste
+[17:54:50] [Server thread/INFO]: Zeerck issued server command: //undo
+[17:54:54] [Server thread/INFO]: Zeerck issued server command: //paste
+[17:55:02] [Server thread/INFO]: Zeerck issued server command: //undo
+[17:55:12] [Server thread/INFO]: Zeerck issued server command: //paste
+[17:55:17] [Server thread/INFO]: Zeerck issued server command: //undo
+[17:55:20] [Server thread/INFO]: Zeerck issued server command: //paste
+[17:55:24] [Server thread/INFO]: Zeerck issued server command: //undo
+[17:55:28] [Server thread/INFO]: Zeerck issued server command: //paste
+[17:55:32] [Server thread/INFO]: Zeerck issued server command: //undo
+[17:55:38] [Server thread/INFO]: Zeerck issued server command: //paste
+[17:55:47] [Server thread/INFO]: Zeerck issued server command: //rotate
+[17:55:58] [Server thread/INFO]: Zeerck issued server command: //undo
+[17:56:24] [Server thread/INFO]: Zeerck issued server command: //copy
+[17:56:36] [Server thread/INFO]: Zeerck issued server command: //copy
+[17:56:43] [Server thread/INFO]: Zeerck issued server command: //rotate
+[17:56:46] [Server thread/INFO]: Zeerck issued server command: //paste
+[17:56:53] [Server thread/INFO]: Zeerck issued server command: //undo
+[17:56:58] [Server thread/INFO]: Zeerck issued server command: //paste
+[17:57:53] [Server thread/INFO]: Zeerck issued server command: //paste 0 90 0
+[17:58:06] [Server thread/INFO]: Zeerck issued server command: //rotate 0 90 0
+[17:58:12] [Server thread/INFO]: Zeerck issued server command: //undo
+[17:58:18] [Server thread/INFO]: Zeerck issued server command: //paste
+[17:58:24] [Server thread/INFO]: Zeerck issued server command: //undo
+[17:58:58] [Server thread/INFO]: Zeerck issued server command: //rotate 0 90 0
+[17:59:00] [Server thread/INFO]: Zeerck issued server command: //paste
+[17:59:07] [Server thread/INFO]: Zeerck issued server command: //undo
+[17:59:09] [Server thread/INFO]: Zeerck issued server command: //rotate 0 90 0
+[17:59:11] [Server thread/INFO]: Zeerck issued server command: //rotate 0 90 0
+[17:59:22] [Server thread/INFO]: Zeerck issued server command: //rotate 180 0 0
+[17:59:25] [Server thread/INFO]: Zeerck issued server command: //paste
+[17:59:33] [Server thread/INFO]: Zeerck issued server command: //undo
+[17:59:38] [Server thread/INFO]: Zeerck issued server command: //paste
+[18:01:24] [Server thread/INFO]: Zeerck issued server command: //replace air
+[18:02:15] [Server thread/INFO]: Zeerck issued server command: //replace air
+[18:07:19] [Server thread/INFO]: Zeerck lost connection: Disconnected
+[18:07:19] [Server thread/INFO]: Zeerck left the game
+[18:07:28] [Server thread/INFO]: Stopping the server
+[18:07:28] [Server thread/INFO]: Stopping server
+[18:07:28] [Server thread/INFO]: [Spawntp] Disabling Spawntp v4.0.4
+[18:07:28] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.10+7004-768a436
+[18:07:28] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:07:28] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.2.8
+[18:07:28] [Server thread/INFO]: Saving players
+[18:07:28] [Server thread/INFO]: Saving worlds
+[18:07:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:07:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[18:07:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[18:07:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:07:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:07:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:07:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

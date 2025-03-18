@@ -1,0 +1,32 @@
+# DeluxeMenus 1.14.0-Release main configuration file
+#
+# A full wiki on how to use this plugin can be found at:
+# https://wiki.helpch.at/clips-plugins/deluxemenus
+
+debug: false
+check_updates: true
+gui_menus:
+  rewards:
+    file: rewards.yml
+  arenas:
+    file: arenas.yml
+  jobs:
+    file: jobs.yml
+  time:
+    file: time.yml
+  luckyblocks:
+    file: luckyblocks.yml
+  protections:
+    file: protections.yml
+  ranks:
+    file: ranks.yml
+  ores:
+    file: ores.yml
+  staffranks:
+    file: staffranks.yml
+  donorranks:
+    file: donorranks.yml
+  panel:
+    file: panel.yml
+  selector:
+    file: selector.yml

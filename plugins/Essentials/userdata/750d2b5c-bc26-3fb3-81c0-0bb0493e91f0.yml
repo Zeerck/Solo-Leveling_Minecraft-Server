@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1742323418047
+  login: 1742322391015
+money: '0'
+last-account-name: Vizart2
+logoutlocation:
+  world: 52de0b3b-c714-487c-88fd-08000d34e295
+  world-name: world
+  x: 201.15679831450083
+  y: 87.49313550722009
+  z: -460.8719381460222
+  yaw: 93.9228515625
+  pitch: 7.851016044616699

@@ -1,0 +1,220 @@
+    menu_title: '&8Главное меню'
+    open_command:
+    - panel
+    - menu
+    size: 45
+    items:
+      '1':
+        material: DIAMOND_SWORD
+        slot: 13
+        display_name: '&6Скиллы'
+        lore:
+        - ''
+        - ' &fНажми чтобы посмотреть' 
+        - ' &fyour &aСкилл лист'
+        - ''
+        - ' &8(Правой кнопкой чтобы открыть)'
+        - ''
+        left_click_commands:
+        - '[player] skills'
+        - '[close]'
+        right_click_commands:
+        - '[player] skills'
+        - '[close]'
+      '2':
+        material: DIAMOND
+        slot: 14
+        display_name: '&6&lНаграды!'
+        lore:
+        - ''
+        - ' &fПолучить дневную награду'
+        - ' &fright now and &aenjoy it?'
+        - ''
+        - ' &8(Right click to see)'
+        - ''
+        left_click_commands:
+        - '[player] rewards'
+        - '[close]'
+        right_click_commands:
+        - '[player] rewards'
+        - '[close]'
+      '3':
+        material: BOOK
+        slot: 15
+        display_name: '&6&lКвесты'
+        lore:
+        - ''
+        - ' &fНужны деньги? делай квесты!'
+        - ' &fa quest and receive &amoney'
+        - ''
+        - ' &8(Right click to see)'
+        - ''
+        left_click_commands:
+        - '[player] q'
+        - '[close]'
+        right_click_commands:
+        - '[player] q'
+        - '[close]'
+      '4':
+        material: oak_planks
+        slot: 16
+        display_name: '&6&lSETHOME Устанавливает дом'
+        lore:
+        - ''
+        - ' &fЗачем писать в чат? НАЖМИ'
+        - ' &fyour &ahouse?'
+        - ''
+        - ' &8(Right click to set)'
+        - ''
+        left_click_commands:
+        - '[player] sethome'
+        - '[close]'
+        right_click_commands:
+        - '[player] sethome'
+        - '[close]'
+      '5':
+        material: emerald
+        slot: 22
+        display_name: '&6&lМоб коин'
+        lore:
+        - ''
+        - ' &fDid you collect mobcoins'
+        - ' &fand want to use them?'
+        - ''
+        - ' &8(Right click to shop)'
+        - ''
+        left_click_commands:
+        - '[player] mc'
+        - '[close]'
+        right_click_commands:
+        - '[player] mc'
+        - '[close]'
+      '6':
+        material: oak_door
+        slot: 23
+        display_name: '&6&lВарпы!'
+        lore:
+        - ''
+        - ' &fВарп лист!'
+        - ' &fof server warps?'
+        - ''
+        - ' &8(Right click to see warps)'
+        - ''
+        left_click_commands:
+        - '[player] warps'
+        - '[close]'
+        right_click_commands:
+        - '[player] warps'
+        - '[close]'
+      '7':
+        material: dirt
+        slot: 24
+        display_name: '&6&lРандомноеТП'
+        lore:
+        - ''
+        - ' &fТп Куда угодно!'
+        - ' &frandom in &amain world?'
+        - ''
+        - ' &8(Right click to use)'
+        - ''
+        left_click_commands:
+        - '[player] rtp gui'
+        - '[close]'
+        right_click_commands:
+        - '[player] rtp gui'
+        - '[close]'
+      '8':
+        material: DIAMOND_pickaxe
+        slot: 25
+        display_name: '&6&lРаботы!'
+        lore:
+        - ''
+        - ' &fПора устроиться на работу'
+        - ' &fmaking &amoney!'
+        - ''
+        - ' &8(Right click to see)'
+        - ''
+        left_click_commands:
+        - '[player] jobs'
+        - '[close]'
+        right_click_commands:
+        - '[player] jobs'
+        - '[close]'
+      '9':
+        material: Chest
+        slot: 31
+        display_name: '&6&lМагазин!'
+        lore:
+        - ''
+        - ' &fТебе нужны покупки?'
+        - ' &fBuy it from &athe shop'
+        - ''
+        - ' &8(Right click to shop)'
+        - ''
+        left_click_commands:
+        - '[player] shop'
+        - '[close]'
+        right_click_commands:
+        - '[player] shop'
+        - '[close]'
+      '10':
+        material: shield
+        slot: 32
+        display_name: '&6&lКланы!'
+        lore:
+        - ''
+        - ' &fОбъединись!'
+        - ' &fСоздай или вступи в клан!'
+        - ''
+        - ' &8(Right click to open clan)'
+        - ''
+        left_click_commands:
+        - '[player] clan'
+        - '[close]'
+        right_click_commands:
+        - '[player] clan'
+        - '[close]'
+      'craftingtable':
+        material: CRAFTING_TABLE
+        slot: 19
+        display_name: '&6&lВерстак'
+        lore:
+        - ''
+        - ' &fDo you want to'
+        - ' &fcraft&a something?'
+        - ''
+        - ' &8(Right click to craft)'
+        - ''
+        left_click_commands:
+        - '[player] workbench'
+        - '[close]'
+        right_click_commands:
+        - '[player] workbench'
+        - '[close]'
+      'info':
+        material: POPPY
+        slot: 10
+        display_name: '&6&lТвоя статка'
+        lore:
+        - ''
+        - ' &fClick to see your'
+        - ' &fskills &astats.'
+        - ''
+        left_click_commands:
+        - '[player] stats'
+        - '[close]'
+        right_click_commands:
+        - '[player] stats'
+        - '[close]'
+      'exit':
+        material: STICK
+        slot: 28
+        display_name: '&6&lВыйти'
+        lore:
+        - ''
+        - ' &fClick here &ato exit'
+        - ''
+        left_click_commands:
+        - '[close]'
+        right_click_commands:
+        - '[close]'

@@ -1,0 +1,895 @@
+menu_title: '&8Rewards'
+open_command:
+- rewards
+- recompense
+- reward
+- bonus
+size: 45
+items:
+  'Membru':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+    priority: 1
+    slot: 12
+    display_name: '&6&lMember reward'
+    view_requirement:
+      requirements:
+        Delay:
+          type: string equals
+          input: '%javascript_rewards-delay_Membru_86400%'
+          output: 0s
+        Pex:
+          type: has permission
+          permission: 'membru.reward'
+    lore:
+    - ''
+    - ' &e64x &fCobblestone'
+    - ' &e64x &fStone'
+    - ' &e64x &fAndesite'
+    - ' &e64x &fOak Planks'
+    - ' &e64x &fOak log'
+    - ' &e3x &fOak sapling'
+    - ' &e10x &fBread'
+    - ' &a1x &fVote Key'
+    - ' &a1x &fDiamonds'
+    - ' &a5x &fIron'
+    - ''
+    - ' &7Right click to receive'
+    - ' &7the reward!'
+    - ''
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_rewards-delay_Membru_start%'
+    - '[console] give %player_name% cobblestone 64'
+    - '[console] give %player_name% stone 64'
+    - '[console] give %player_name% andesite 64'
+    - '[console] give %player_name% oak_planks 64'
+    - '[console] give %player_name% oak_log 64'
+    - '[console] give %player_name% oak_sapling 3'
+    - '[console] give %player_name% bread 10'
+    - '[console] cc give physical Vote 1 %player_name%'
+    - '[console] give %player_name% diamond 1'
+    - '[console] give %player_name% iron_ingot 5'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_rewards-delay_Membru_start%'
+    - '[console] give %player_name% cobblestone 64'
+    - '[console] give %player_name% stone 64'
+    - '[console] give %player_name% andesite 64'
+    - '[console] give %player_name% oak_planks 64'
+    - '[console] give %player_name% oak_log 64'
+    - '[console] give %player_name% oak_sapling 3'
+    - '[console] give %player_name% bread 10'
+    - '[console] cc give physical Vote 1 %player_name%'
+    - '[console] give %player_name% diamond 1'
+    - '[console] give %player_name% iron_ingot 5'
+    - '[close]'
+  'Membru1':
+    material: BEDROCK
+    priority: 2
+    slot: 12
+    display_name: '&6&lMember reward'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'membru.reward'
+    lore:
+    - ''
+    - ' &e64x &fCobblestone'
+    - ' &e64x &fStone'
+    - ' &e64x &fAndesite'
+    - ' &e64x &fOak Planks'
+    - ' &e64x &fOak log'
+    - ' &e3x &fOak sapling'
+    - ' &e10x &fBread'
+    - ' &a1x &fVote Key'
+    - ' &a1x &fDiamonds'
+    - ' &a5x &fIron'
+    - ''
+    - ' &fCooldown: &c%javascript_rewards-delay_Membru_86400%'
+    - ''
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'Membru2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDUyOGVkNDU4MDI0MDBmNDY1YjVjNGUzYTZiN2E5ZjJiNmE1YjNkNDc4YjZmZDg0OTI1Y2M1ZDk4ODM5MWM3ZCJ9fX0=
+    priority: 3
+    slot: 12
+    display_name: '&6&lMember reward'
+    lore:
+    - ''
+    - ' &e64x &fCobblestone'
+    - ' &e64x &fStone'
+    - ' &e64x &fAndesite'
+    - ' &e64x &fOak Planks'
+    - ' &e64x &fOak log'
+    - ' &e3x &fOak sapling'
+    - ' &e10x &fBread'
+    - ' &a1x &fVote Key'
+    - ' &a1x &fDiamonds'
+    - ' &a5x &fIron'
+    - ''
+    - ' &cYou don t have the necessary'
+    - ' &crank for this reward'
+    - ''
+    left_click_commands:
+    - '[message] &6&lREWARDS &8/ / &7To buy ranks, access our store'
+    - '[close]'
+    right_click_commands:
+    - '[message] &6&lREWARDS &8/ / &7To buy ranks, access our store'
+    - '[close]'
+  'Ultra':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI3OGZhNWRlZmU3MmRlYmNkOWM3NmFiOWY0ZTExNDI1MDQ3OWJiOWI0NGY0Mjg4N2JiZjZmNzM4NjEyYiJ9fX0=
+    priority: 1
+    slot: 14
+    display_name: '&6&lUltra Reward'
+    view_requirement:
+      requirements:
+        Delay:
+          type: string equals
+          input: '%javascript_rewards-delay_Ultra_86400%'
+          output: 0s
+        Pex:
+          type: has permission
+          permission: 'ultra.reward'
+    lore:
+    - ''
+    - ' &e64x &fCobblestone'
+    - ' &e64x &fStone'
+    - ' &e64x &fAndesite'
+    - ' &e64x &fOak Planks'
+    - ' &e64x &fOak log'
+    - ' &e3x &fOak sapling'
+    - ' &e30x &fBread'
+    - ' &a1x &fVote Key'
+    - ' &a5x &fDiamonds'
+    - ' &a10x &fIron'
+    - ' &c1x &f5000$'
+    - ''
+    - ' &7Right click to receive'
+    - ' &7the reward!'
+    - ''
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_rewards-delay_Ultra_start%'
+    - '[console] give %player_name% cobblestone 64'
+    - '[console] give %player_name% stone 64'
+    - '[console] give %player_name% andesite 64'
+    - '[console] give %player_name% oak_planks 64'
+    - '[console] give %player_name% oak_log 64'
+    - '[console] give %player_name% oak_sapling 3'
+    - '[console] give %player_name% bread 30'
+    - '[console] cc give physical Vote 1 %player_name%'
+    - '[console] give %player_name% diamond 5'
+    - '[console] eco give %player_name% 5000'
+    - '[console] give %player_name% iron_ingot 10'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_rewards-delay_Ultra_start%'
+    - '[console] give %player_name% cobblestone 64'
+    - '[console] give %player_name% stone 64'
+    - '[console] give %player_name% andesite 64'
+    - '[console] give %player_name% oak_planks 64'
+    - '[console] give %player_name% oak_log 64'
+    - '[console] give %player_name% oak_sapling 3'
+    - '[console] give %player_name% bread 30'
+    - '[console] cc give physical Vote 1 %player_name%'
+    - '[console] give %player_name% diamond 5'
+    - '[console] eco give %player_name% 5000'
+    - '[console] give %player_name% iron_ingot 10'
+    - '[close]'
+  'Ultra1':
+    material: BEDROCK
+    priority: 2
+    slot: 14
+    display_name: '&6&lUltra Reward'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'ultra.reward'
+    lore:
+    - ''
+    - ' &e64x &fCobblestone'
+    - ' &e64x &fStone'
+    - ' &e64x &fAndesite'
+    - ' &e64x &fOak Planks'
+    - ' &e64x &fOak log'
+    - ' &e3x &fOak sapling'
+    - ' &e30x &fBread'
+    - ' &a1x &fVote Key'
+    - ' &a5x &fDiamonds'
+    - ' &a10x &fIron'
+    - ' &c1x &f5000$'
+    - ''
+    - ' &fCooldown: &c%javascript_rewards-delay_Ultra_86400%'
+    - ''
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'Ultra2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmI3OGZhNWRlZmU3MmRlYmNkOWM3NmFiOWY0ZTExNDI1MDQ3OWJiOWI0NGY0Mjg4N2JiZjZmNzM4NjEyYiJ9fX0=
+    priority: 3
+    slot: 14
+    display_name: '&6&lUltra Reward'
+    lore:
+    - ''
+    - ' &e64x &fCobblestone'
+    - ' &e64x &fStone'
+    - ' &e64x &fAndesite'
+    - ' &e64x &fOak Planks'
+    - ' &e64x &fOak log'
+    - ' &e3x &fOak sapling'
+    - ' &e30x &fBread'
+    - ' &a1x &fVote Key'
+    - ' &a5x &fDiamonds'
+    - ' &a10x &fIron'
+    - ' &c1x &f5000$'
+    - ''
+    - ' &cYou don t have the necessary'
+    - ' &crank for this reward'
+    - ''
+    left_click_commands:
+    - '[message] &6&lREWARDS &8/ / &7To buy ranks, access our store'
+    - '[close]'
+    right_click_commands:
+    - '[message] &6&lREWARDS &8/ / &7To buy ranks, access our store'
+    - '[close]'
+  'Vip':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI2Yjc3MjMyOWNmMzJmODY0M2M0OTI4NjI2YjZhMzI1MjMzZmY2MWFhOWM3NzI1ODczYTRiZDY2ZGIzZDY5MiJ9fX0=
+    priority: 1
+    slot: 15
+    display_name: '&6&lVip Reward'
+    view_requirement:
+      requirements:
+        Delay:
+          type: string equals
+          input: '%javascript_rewards-delay_Vip_86400%'
+          output: 0s
+        Pex:
+          type: has permission
+          permission: 'vip.reward'
+    lore:
+    - ''
+    - ' &e64x &fCobblestone'
+    - ' &e64x &fStone'
+    - ' &e64x &fAndesite'
+    - ' &e64x &fOak Planks'
+    - ' &e64x &fOak log'
+    - ' &e3x &fOak sapling'
+    - ' &e30x &fBread'
+    - ' &a2x &fVote Key'
+    - ' &a1x &fCrazy Key'
+    - ' &a5x &fDiamonds'
+    - ' &a10x &fIron'
+    - ' &c1x &f7000$'
+    - ''
+    - ' &7Right click to receive'
+    - ' &7the reward!'
+    - ''
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_rewards-delay_Vip_start%'
+    - '[console] give %player_name% cobblestone 64'
+    - '[console] give %player_name% stone 64'
+    - '[console] give %player_name% andesite 64'
+    - '[console] give %player_name% oak_planks 64'
+    - '[console] give %player_name% oak_log 64'
+    - '[console] give %player_name% oak_sapling 3'
+    - '[console] give %player_name% bread 30'
+    - '[console] cc give physical Vote 2 %player_name%'
+    - '[console] cc give physical Crazy 1 %player_name%'
+    - '[console] give %player_name% diamond 5'
+    - '[console] eco give %player_name% 7000'
+    - '[console] give %player_name% iron_ingot 10'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_rewards-delay_Vip_start%'
+    - '[console] give %player_name% cobblestone 64'
+    - '[console] give %player_name% stone 64'
+    - '[console] give %player_name% andesite 64'
+    - '[console] give %player_name% oak_planks 64'
+    - '[console] give %player_name% oak_log 64'
+    - '[console] give %player_name% oak_sapling 3'
+    - '[console] give %player_name% bread 30'
+    - '[console] cc give physical Vote 2 %player_name%'
+    - '[console] cc give physical Crazy 1 %player_name%'
+    - '[console] give %player_name% diamond 5'
+    - '[console] eco give %player_name% 7000'
+    - '[console] give %player_name% iron_ingot 10'
+    - '[close]'
+  'Vip1':
+    material: BEDROCK
+    priority: 2
+    slot: 15
+    display_name: '&6&lVip Reward'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'vip.reward'
+    lore:
+    - ''
+    - ' &e64x &fCobblestone'
+    - ' &e64x &fStone'
+    - ' &e64x &fAndesite'
+    - ' &e64x &fOak Planks'
+    - ' &e64x &fOak log'
+    - ' &e3x &fOak sapling'
+    - ' &e30x &fBread'
+    - ' &a2x &fVote Key'
+    - ' &a1x &fCrazy Key'
+    - ' &a5x &fDiamonds'
+    - ' &a10x &fIron'
+    - ' &c1x &f7000$'
+    - ''
+    - ' &fCooldown: &c%javascript_rewards-delay_Vip_86400%'
+    - ''
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'Vip2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI2Yjc3MjMyOWNmMzJmODY0M2M0OTI4NjI2YjZhMzI1MjMzZmY2MWFhOWM3NzI1ODczYTRiZDY2ZGIzZDY5MiJ9fX0=
+    priority: 3
+    slot: 15
+    display_name: '&6&lVip Reward'
+    lore:
+    - ''
+    - ' &e64x &fCobblestone'
+    - ' &e64x &fStone'
+    - ' &e64x &fAndesite'
+    - ' &e64x &fOak Planks'
+    - ' &e64x &fOak log'
+    - ' &e3x &fOak sapling'
+    - ' &e30x &fBread'
+    - ' &a2x &fVote Key'
+    - ' &a1x &fCrazy Key'
+    - ' &a5x &fDiamonds'
+    - ' &a10x &fIron'
+    - ' &c1x &f7000$'
+    - ''
+    - ' &cYou don t have the necessary'
+    - ' &crank for this reward'
+    - ''
+    left_click_commands:
+    - '[message] &6&lREWARDS &8/ / &7To buy ranks, access our store'
+    - '[close]'
+    right_click_commands:
+    - '[message] &6&lREWARDS &8/ / &7To buy ranks, access our store'
+    - '[close]'
+  'Hero':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRiZjg5M2ZjNmRlZmFkMjE4Zjc4MzZlZmVmYmU2MzZmMWMyY2MxYmI2NTBjODJmY2NkOTlmMmMxZWU2In19fQ==
+    priority: 1
+    slot: 16
+    display_name: '&6&lHero Reward'
+    view_requirement:
+      requirements:
+        Delay:
+          type: string equals
+          input: '%javascript_rewards-delay_Hero_86400%'
+          output: 0s
+        Pex:
+          type: has permission
+          permission: 'hero.reward'
+    lore:
+    - ''
+    - ' &e64x &fCobblestone'
+    - ' &e64x &fStone'
+    - ' &e64x &fAndesite'
+    - ' &e64x &fOak Planks'
+    - ' &e64x &fOak log'
+    - ' &e3x &fOak sapling'
+    - ' &e30x &fBread'
+    - ' &a2x &fVote Key'
+    - ' &a2x &fCrazy Key'
+    - ' &a10x &fDiamonds'
+    - ' &a15x &fIron'
+    - ' &c1x &f10000$'
+    - ' &c5x &fGolden Apple'
+    - ''
+    - ' &7Right click to receive'
+    - ' &7the reward!'
+    - ''
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_rewards-delay_Hero_start%'
+    - '[console] give %player_name% cobblestone 64'
+    - '[console] give %player_name% stone 64'
+    - '[console] give %player_name% andesite 64'
+    - '[console] give %player_name% oak_planks 64'
+    - '[console] give %player_name% oak_log 64'
+    - '[console] give %player_name% oak_sapling 3'
+    - '[console] give %player_name% bread 30'
+    - '[console] cc give physical Vote 2 %player_name%'
+    - '[console] cc give physical Crazy 2 %player_name%'
+    - '[console] give %player_name% diamond 10'
+    - '[console] eco give %player_name% 10000'
+    - '[console] give %player_name% iron_ingot 15'
+    - '[console] give %player_name% golden_apple 5'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_rewards-delay_Hero_start%'
+    - '[console] give %player_name% cobblestone 64'
+    - '[console] give %player_name% stone 64'
+    - '[console] give %player_name% andesite 64'
+    - '[console] give %player_name% oak_planks 64'
+    - '[console] give %player_name% oak_log 64'
+    - '[console] give %player_name% oak_sapling 3'
+    - '[console] give %player_name% bread 30'
+    - '[console] cc give physical Vote 2 %player_name%'
+    - '[console] cc give physical Crazy 2 %player_name%'
+    - '[console] give %player_name% diamond 10'
+    - '[console] eco give %player_name% 10000'
+    - '[console] give %player_name% iron_ingot 15'
+    - '[console] give %player_name% golden_apple 5'
+    - '[close]'
+  'Hero1':
+    material: BEDROCK
+    priority: 2
+    slot: 16
+    display_name: '&6&lHero Reward'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'hero.reward'
+    lore:
+    - ''
+    - ' &e64x &fCobblestone'
+    - ' &e64x &fStone'
+    - ' &e64x &fAndesite'
+    - ' &e64x &fOak Planks'
+    - ' &e64x &fOak log'
+    - ' &e3x &fOak sapling'
+    - ' &e30x &fBread'
+    - ' &a2x &fVote Key'
+    - ' &a2x &fCrazy Key'
+    - ' &a10x &fDiamonds'
+    - ' &a15x &fIron'
+    - ' &c1x &f10000$'
+    - ' &c5x &fGolden Apple'
+    - ''
+    - ' &fCooldown: &c%javascript_rewards-delay_Hero_86400%'
+    - ''
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'Hero2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTRiZjg5M2ZjNmRlZmFkMjE4Zjc4MzZlZmVmYmU2MzZmMWMyY2MxYmI2NTBjODJmY2NkOTlmMmMxZWU2In19fQ==
+    priority: 3
+    slot: 16
+    display_name: '&6&lHero Reward'
+    lore:
+    - ''
+    - ' &e64x &fCobblestone'
+    - ' &e64x &fStone'
+    - ' &e64x &fAndesite'
+    - ' &e64x &fOak Planks'
+    - ' &e64x &fOak log'
+    - ' &e3x &fOak sapling'
+    - ' &e30x &fBread'
+    - ' &a2x &fVote Key'
+    - ' &a2x &fCrazy Key'
+    - ' &a10x &fDiamonds'
+    - ' &a15x &fIron'
+    - ' &c1x &f10000$'
+    - ' &c5x &fGolden Apple'
+    - ''
+    - ' &cYou don t have the necessary'
+    - ' &crank for this reward'
+    - ''
+    left_click_commands:
+    - '[message] &6&lREWARDS &8/ / &7To buy ranks, access our store'
+    - '[close]'
+    right_click_commands:
+    - '[message] &6&lREWARDS &8/ / &7To buy ranks, access our store'
+    - '[close]'
+  'Legend':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzMTU5N2RjZTRlNDA1MWU4ZDVhNTQzNjQxOTY2YWI1NGZiZjI1YTBlZDYwNDdmMTFlNjE0MGQ4OGJmNDhmIn19fQ==
+    priority: 1
+    slot: 23
+    display_name: '&6&lLegend Reward'
+    view_requirement:
+      requirements:
+        Delay:
+          type: string equals
+          input: '%javascript_rewards-delay_Legend_86400%'
+          output: 0s
+        Pex:
+          type: has permission
+          permission: 'legend.reward'
+    lore:
+    - ''
+    - ' &e64x &fCobblestone'
+    - ' &e64x &fStone'
+    - ' &e64x &fAndesite'
+    - ' &e64x &fOak Planks'
+    - ' &e64x &fOak log'
+    - ' &e3x &fOak sapling'
+    - ' &e30x &fBread'
+    - ' &a2x &fVote Key'
+    - ' &a2x &fCrazy Key'
+    - ' &a1x &fDragon Key'
+    - ' &a10x &fDiamonds'
+    - ' &a15x &fIron'
+    - ' &c1x &f13000$'
+    - ' &c7x &fGolden Apple'
+    - ''
+    - ' &7Right click to receive'
+    - ' &7the reward!'
+    - ''
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_rewards-delay_Legend_start%'
+    - '[console] give %player_name% cobblestone 64'
+    - '[console] give %player_name% stone 64'
+    - '[console] give %player_name% andesite 64'
+    - '[console] give %player_name% oak_planks 64'
+    - '[console] give %player_name% oak_log 64'
+    - '[console] give %player_name% oak_sapling 3'
+    - '[console] give %player_name% bread 30'
+    - '[console] cc give physical Vote 2 %player_name%'
+    - '[console] cc give physical Crazy 2 %player_name%'
+    - '[console] cc give physical Dragon 1 %player_name%'
+    - '[console] give %player_name% diamond 10'
+    - '[console] eco give %player_name% 13000'
+    - '[console] give %player_name% iron_ingot 15'
+    - '[console] give %player_name% golden_apple 7'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_rewards-delay_Legend_start%'
+    - '[console] give %player_name% cobblestone 64'
+    - '[console] give %player_name% stone 64'
+    - '[console] give %player_name% andesite 64'
+    - '[console] give %player_name% oak_planks 64'
+    - '[console] give %player_name% oak_log 64'
+    - '[console] give %player_name% oak_sapling 3'
+    - '[console] give %player_name% bread 30'
+    - '[console] cc give physical Vote 2 %player_name%'
+    - '[console] cc give physical Crazy 2 %player_name%'
+    - '[console] cc give physical Dragon 1 %player_name%'
+    - '[console] give %player_name% diamond 10'
+    - '[console] eco give %player_name% 13000'
+    - '[console] give %player_name% iron_ingot 15'
+    - '[console] give %player_name% golden_apple 7'
+    - '[close]'
+  'Legend1':
+    material: BEDROCK
+    priority: 2
+    slot: 23
+    display_name: '&6&lLegend Reward'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'legend.reward'
+    lore:
+    - ''
+    - ' &e64x &fCobblestone'
+    - ' &e64x &fStone'
+    - ' &e64x &fAndesite'
+    - ' &e64x &fOak Planks'
+    - ' &e64x &fOak log'
+    - ' &e3x &fOak sapling'
+    - ' &e30x &fBread'
+    - ' &a2x &fVote Key'
+    - ' &a2x &fCrazy Key'
+    - ' &a1x &fDragon Key'
+    - ' &a10x &fDiamonds'
+    - ' &a15x &fIron'
+    - ' &c1x &f13000$'
+    - ' &c7x &fGolden Apple'
+    - ''
+    - ' &fCooldown: &c%javascript_rewards-delay_Legend_86400%'
+    - ''
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'Legend2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYzMTU5N2RjZTRlNDA1MWU4ZDVhNTQzNjQxOTY2YWI1NGZiZjI1YTBlZDYwNDdmMTFlNjE0MGQ4OGJmNDhmIn19fQ==
+    priority: 3
+    slot: 23
+    display_name: '&6&lLegend Reward'
+    lore:
+    - ''
+    - ' &e64x &fCobblestone'
+    - ' &e64x &fStone'
+    - ' &e64x &fAndesite'
+    - ' &e64x &fOak Planks'
+    - ' &e64x &fOak log'
+    - ' &e3x &fOak sapling'
+    - ' &e30x &fBread'
+    - ' &a2x &fVote Key'
+    - ' &a2x &fCrazy Key'
+    - ' &a1x &fDragon Key'
+    - ' &a10x &fDiamonds'
+    - ' &a15x &fIron'
+    - ' &c1x &f13000$'
+    - ' &c7x &fGolden Apple'
+    - ''
+    - ' &cYou don t have the necessary'
+    - ' &crank for this reward'
+    - ''
+    left_click_commands:
+    - '[message] &6&lREWARDS &8/ / &7To buy ranks, access our store'
+    - '[close]'
+    right_click_commands:
+    - '[message] &6&lREWARDS &8/ / &7To buy ranks, access our store'
+    - '[close]'
+  'Supreme':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM5MDZkNjg4ZTY1ODAyNTY5ZDk3MDViNTc5YmNlNTZlZGM4NmVhNWMzNmJkZDZkNmZjMzU1MTZhNzdkNCJ9fX0=
+    priority: 1
+    slot: 24
+    display_name: '&6&lSupreme Reward'
+    view_requirement:
+      requirements:
+        Delay:
+          type: string equals
+          input: '%javascript_rewards-delay_Supreme_86400%'
+          output: 0s
+        Pex:
+          type: has permission
+          permission: 'supreme.reward'
+    lore:
+    - ''
+    - ' &e64x &fCobblestone'
+    - ' &e64x &fStone'
+    - ' &e64x &fAndesite'
+    - ' &e64x &fOak Planks'
+    - ' &e64x &fOak log'
+    - ' &e3x &fOak sapling'
+    - ' &e30x &fBread'
+    - ' &a2x &fVote Key'
+    - ' &a2x &fCrazy Key'
+    - ' &a1x &fDragon Key'
+    - ' &a20x &fDiamonds'
+    - ' &a25x &fIron'
+    - ' &c1x &f18000$'
+    - ' &c10x &fGolden Apple'
+    - ''
+    - ' &7Right click to receive'
+    - ' &7the reward!'
+    - ''
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_rewards-delay_Supreme_start%'
+    - '[console] give %player_name% cobblestone 64'
+    - '[console] give %player_name% stone 64'
+    - '[console] give %player_name% andesite 64'
+    - '[console] give %player_name% oak_planks 64'
+    - '[console] give %player_name% oak_log 64'
+    - '[console] give %player_name% oak_sapling 3'
+    - '[console] give %player_name% bread 30'
+    - '[console] cc give physical Vote 2 %player_name%'
+    - '[console] cc give physical Crazy 2 %player_name%'
+    - '[console] cc give physical Dragon 1 %player_name%'
+    - '[console] give %player_name% diamond 20'
+    - '[console] eco give %player_name% 18000'
+    - '[console] give %player_name% iron_ingot 25'
+    - '[console] give %player_name% golden_apple 10'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_rewards-delay_Supreme_start%'
+    - '[console] give %player_name% cobblestone 64'
+    - '[console] give %player_name% stone 64'
+    - '[console] give %player_name% andesite 64'
+    - '[console] give %player_name% oak_planks 64'
+    - '[console] give %player_name% oak_log 64'
+    - '[console] give %player_name% oak_sapling 3'
+    - '[console] give %player_name% bread 30'
+    - '[console] cc give physical Vote 2 %player_name%'
+    - '[console] cc give physical Crazy 2 %player_name%'
+    - '[console] cc give physical Dragon 1 %player_name%'
+    - '[console] give %player_name% diamond 20'
+    - '[console] eco give %player_name% 18000'
+    - '[console] give %player_name% iron_ingot 25'
+    - '[console] give %player_name% golden_apple 10'
+    - '[close]'
+  'Supreme1':
+    material: BEDROCK
+    priority: 2
+    slot: 24
+    display_name: '&6&lSupreme Reward'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'supreme.reward'
+    lore:
+    - ''
+    - ' &e64x &fCobblestone'
+    - ' &e64x &fStone'
+    - ' &e64x &fAndesite'
+    - ' &e64x &fOak Planks'
+    - ' &e64x &fOak log'
+    - ' &e3x &fOak sapling'
+    - ' &e30x &fBread'
+    - ' &a2x &fVote Key'
+    - ' &a2x &fCrazy Key'
+    - ' &a1x &fDragon Key'
+    - ' &a20x &fDiamonds'
+    - ' &a25x &fIron'
+    - ' &c1x &f18000$'
+    - ' &c10x &fGolden Apple'
+    - ''
+    - ' &fCooldown: &c%javascript_rewards-delay_Supreme_86400%'
+    - ''
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'Supreme2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM5MDZkNjg4ZTY1ODAyNTY5ZDk3MDViNTc5YmNlNTZlZGM4NmVhNWMzNmJkZDZkNmZjMzU1MTZhNzdkNCJ9fX0=
+    priority: 3
+    slot: 24
+    display_name: '&6&lSupreme Reward'
+    lore:
+    - ''
+    - ' &e64x &fCobblestone'
+    - ' &e64x &fStone'
+    - ' &e64x &fAndesite'
+    - ' &e64x &fOak Planks'
+    - ' &e64x &fOak log'
+    - ' &e3x &fOak sapling'
+    - ' &e30x &fBread'
+    - ' &a2x &fVote Key'
+    - ' &a2x &fCrazy Key'
+    - ' &a1x &fDragon Key'
+    - ' &a20x &fDiamonds'
+    - ' &a25x &fIron'
+    - ' &c1x &f18000$'
+    - ' &c10x &fGolden Apple'
+    - ''
+    - ' &cYou don t have the necessary'
+    - ' &crank for this reward'
+    - ''
+    left_click_commands:
+    - '[message] &6&lREWARDS &8/ / &7To buy ranks, access our store'
+    - '[close]'
+    right_click_commands:
+    - '[message] &6&lREWARDS &8/ / &7To buy ranks, access our store'
+    - '[close]'
+  'Prime':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
+    priority: 1
+    slot: 25
+    display_name: '&6&lPrime Reward'
+    view_requirement:
+      requirements:
+        Delay:
+          type: string equals
+          input: '%javascript_rewards-delay_Prime_86400%'
+          output: 0s
+        Pex:
+          type: has permission
+          permission: 'prime.reward'
+    lore:
+    - ''
+    - ' &e64x &fCobblestone'
+    - ' &e64x &fStone'
+    - ' &e64x &fAndesite'
+    - ' &e64x &fOak Planks'
+    - ' &e64x &fOak log'
+    - ' &e3x &fOak sapling'
+    - ' &e30x &fBread'
+    - ' &a2x &fVote Key'
+    - ' &a2x &fCrazy Key'
+    - ' &a1x &fDragon Key'
+    - ' &a20x &fDiamonds'
+    - ' &a25x &fIron'
+    - ' &c1x &f25000$'
+    - ' &c10x &fGolden Apple'
+    - ' &c1x &fElytra'
+    - ''
+    - ' &7Right click to receive'
+    - ' &7the reward!'
+    - ''
+    left_click_commands:
+    - '[console] papi parse %player_name% %javascript_rewards-delay_Prime_start%'
+    - '[console] give %player_name% cobblestone 64'
+    - '[console] give %player_name% stone 64'
+    - '[console] give %player_name% andesite 64'
+    - '[console] give %player_name% oak_planks 64'
+    - '[console] give %player_name% oak_log 64'
+    - '[console] give %player_name% oak_sapling 3'
+    - '[console] give %player_name% bread 30'
+    - '[console] cc give physical Vote 2 %player_name%'
+    - '[console] cc give physical Crazy 2 %player_name%'
+    - '[console] cc give physical Dragon 1 %player_name%'
+    - '[console] give %player_name% diamond 20'
+    - '[console] eco give %player_name% 25000'
+    - '[console] give %player_name% iron_ingot 25'
+    - '[console] give %player_name% golden_apple 10'
+    - '[console] give %player_name% elytra 1'
+    - '[close]'
+    right_click_commands:
+    - '[console] papi parse %player_name% %javascript_rewards-delay_Prime_start%'
+    - '[console] give %player_name% cobblestone 64'
+    - '[console] give %player_name% stone 64'
+    - '[console] give %player_name% andesite 64'
+    - '[console] give %player_name% oak_planks 64'
+    - '[console] give %player_name% oak_log 64'
+    - '[console] give %player_name% oak_sapling 3'
+    - '[console] give %player_name% bread 30'
+    - '[console] cc give physical Vote 2 %player_name%'
+    - '[console] cc give physical Crazy 2 %player_name%'
+    - '[console] cc give physical Dragon 1 %player_name%'
+    - '[console] give %player_name% diamond 20'
+    - '[console] eco give %player_name% 25000'
+    - '[console] give %player_name% iron_ingot 25'
+    - '[console] give %player_name% golden_apple 10'
+    - '[console] give %player_name% elytra 1'
+    - '[close]'
+  'Prime1':
+    material: BEDROCK
+    priority: 2
+    slot: 25
+    display_name: '&6&lPrime Reward'
+    view_requirement:
+      requirements:
+        Pex:
+          type: has permission
+          permission: 'prime.reward'
+    lore:
+    - ''
+    - ' &e64x &fCobblestone'
+    - ' &e64x &fStone'
+    - ' &e64x &fAndesite'
+    - ' &e64x &fOak Planks'
+    - ' &e64x &fOak log'
+    - ' &e3x &fOak sapling'
+    - ' &e30x &fBread'
+    - ' &a2x &fVote Key'
+    - ' &a2x &fCrazy Key'
+    - ' &a1x &fDragon Key'
+    - ' &a20x &fDiamonds'
+    - ' &a25x &fIron'
+    - ' &c1x &f25000$'
+    - ' &c10x &fGolden Apple'
+    - ' &c1x &fElytra'
+    - ''
+    - ' &fCooldown: &c%javascript_rewards-delay_Prime_86400%'
+    - ''
+    left_click_commands:
+    - '[refresh]'
+    right_click_commands:
+    - '[refresh]'
+  'Prime2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg5MWY1YzIzYTU0MzY0MzI0NGJjNjEwMjA0ZTQ3NWFhZjczMWRkYTVjOTZiMjY4ZGM1ZDkyMmVhODMyN2E4YyJ9fX0=
+    priority: 3
+    slot: 25
+    display_name: '&6&lPrime Reward'
+    lore:
+    - ''
+    - ' &e64x &fCobblestone'
+    - ' &e64x &fStone'
+    - ' &e64x &fAndesite'
+    - ' &e64x &fOak Planks'
+    - ' &e64x &fOak log'
+    - ' &e3x &fOak sapling'
+    - ' &e30x &fBread'
+    - ' &a2x &fVote Key'
+    - ' &a2x &fCrazy Key'
+    - ' &a1x &fDragon Key'
+    - ' &a20x &fDiamonds'
+    - ' &a25x &fIron'
+    - ' &c1x &f25000$'
+    - ' &c10x &fGolden Apple'
+    - ' &c1x &fElytra'
+    - ''
+    - ' &cYou don t have the necessary'
+    - ' &crank for this reward'
+    - ''
+    left_click_commands:
+    - '[message] &6&lREWARDS &8/ / &7To buy ranks, access our store'
+    - '[close]'
+    right_click_commands:
+    - '[message] &6&lREWARDS &8/ / &7To buy ranks, access our store'
+    - '[close]'
+  'Panels':
+    material: gray_stained_glass_pane
+    slots:
+    - 18
+    - 27
+    - 28
+    - 37
+    - 38

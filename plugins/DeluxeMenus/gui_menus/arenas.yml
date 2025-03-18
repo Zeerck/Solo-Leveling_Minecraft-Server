@@ -1,0 +1,57 @@
+menu_title: '&8Arenas'
+open_command: 
+- arena
+- arenas
+- arene
+- pvp
+size: 27
+items:
+  '1':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjdjMTc4NjVjMjc5MzRmOGM4ZWM2YzYyN2UxZmUyZDk5Zjc4M2VjOGFlNDE0Y2EyZDRmZDM2NDBhN2YzYyJ9fX0=
+    slot: 11
+    display_name: '&6&lPvP Arena'
+    lore:
+      - ''
+      - " &fYou feel strong?"
+      - " &fProve this in &apvp arena!"
+      - ''
+      - ' &fPvP Arena is a public arena dedicated'
+      - ' &fto the fights between the server players!'
+      - ''
+      - ' &fAvailable: &aYes'
+      - ' &fDifficulty: &eMedium'
+      - ''
+      - ' &7(Right click to teleport)'
+    left_click_commands:
+      - '[close]'
+      - '[player] warp PvP'
+    right_click_commands:
+      - '[close]'
+      - '[player] warp PvP'
+  '2':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWI0YmY3YTdhNDVkOGRkZWI0NzBjOTYxNzM3Y2U5NjIxMTQ4ZmNlMmNmZTgxNDU5YzMxMTc3NWNkYWI5In19fQ==
+    slot: 12
+    display_name: '&6&lBoss Arena'
+    lore:
+      - ''
+      - " &fThis arena will be available"
+      - " &fat the next update!"
+      - ''
+  '3':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTA3NDEyMTUxZTJhM2E1YjMzZjdiMjk4ZWQyMzdmYWUzOWU2NDg4ZDQ2MmZhNWQ1NThhMmViZjc0Nzg0NyJ9fX0=
+    slot: 13
+    display_name: '&6&lPvE Arena'
+    lore:
+      - ''
+      - " &fThis arena will be available"
+      - " &fat the next update!"
+      - ''
+  'Panels':
+    material: gray_stained_glass_pane
+    display_name: '&f'
+    slots:
+      - 16
+      - 17
+      - 6
+      - 7
+      - 26

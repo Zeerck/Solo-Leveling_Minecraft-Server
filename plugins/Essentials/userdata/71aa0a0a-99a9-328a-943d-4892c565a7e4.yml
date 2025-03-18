@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 26.241.79.41
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1742323423928
+  login: 1742322761104
+money: '0'
+last-account-name: Zeerck
+logoutlocation:
+  world: 52de0b3b-c714-487c-88fd-08000d34e295
+  world-name: world
+  x: 198.5289730637089
+  y: 74.0
+  z: -459.4932399905333
+  yaw: -88.677734375
+  pitch: 36.742523193359375

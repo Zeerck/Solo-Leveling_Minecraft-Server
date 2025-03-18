@@ -97,6 +97,8 @@ world-settings:
     hopper-amount: 1
     hopper-can-load-chunks: false
     dragon-death-sound-radius: 0
+  worldeditregentempworld:
+    verbose: false
 settings:
   debug: false
   save-user-cache-on-stop-only: false

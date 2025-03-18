@@ -1,0 +1,183 @@
+    menu_title: '&8Lucky Blocks Shop'
+    open_command:
+    - lucky
+    - luckyblock
+    - luckyblocks
+    - luckyshop
+    size: 54
+    items:
+      '1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE5ZDI4YTg2MzJmYTRkODdjYTE5OWJiYzJlODhjZjM2OGRlZGQ1NTc0NzAxN2FlMzQ4NDM1NjlmN2E2MzRjNSJ9fX0=
+        slot: 11
+        amount: 1
+        display_name: '&6&lLUCKY BLOCKS &8▏ &a1 piece'
+        lore:
+        - ''
+        - ' &fBuy 1 luckyblock'
+        - ' &fPrice: &c2500$'
+        - ''
+        - ' &8Your balance: [&a%vault_eco_balance_fixed%&8]'
+        - ' &8(Right click to buy)'
+        - ''
+        left_click_commands:
+        - '[console] eco take %player_name% 2500'
+        - '[console] slb give 1 %player_name%'
+        left_click_requirement:
+          requirements:
+            bani:
+              type: has money
+              amount: 2500.0
+          deny_commands:
+          - '[close]'
+          - '[message] &6&lLUCKYBLOCKS &8/ / &FYou don t have &6&l2,500$&7!'
+        right_click_requirement:
+          requirements:
+            bani:
+              type: has money
+              amount: 2500.0
+          deny_commands:
+          - '[close]'
+          - '[message] &6&lLUCKYBLOCKS &8/ / &FYou don t have &6&l2,500$&7!'
+        right_click_commands:
+        - '[console] eco take %player_name% 2500'
+        - '[console] slb give 1 %player_name%'
+      '2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE5ZDI4YTg2MzJmYTRkODdjYTE5OWJiYzJlODhjZjM2OGRlZGQ1NTc0NzAxN2FlMzQ4NDM1NjlmN2E2MzRjNSJ9fX0=
+        slot: 12
+        amount: 8
+        display_name: '&6&lLUCKY BLOCKS &8▏ &A8 pieces'
+        lore:
+        - ''
+        - ' &fBuy 8 luckyblocks'
+        - ' &fPrice: &c20000$'
+        - ''
+        - ' &8Your balance: [&a%vault_eco_balance_fixed%&8]'
+        - ' &8(Right click to buy)'
+        - ''
+        left_click_commands:
+        - '[console] eco take %player_name% 20000'
+        - '[console] slb give 8 %player_name%'
+        left_click_requirement:
+          requirements:
+            bani:
+              type: has money
+              amount: 20000.0
+          deny_commands:
+          - '[close]'
+          - '[message] &6&lLUCKYBLOCKS &8/ / &FYou don t have &6&l20,000$&7!'
+        right_click_requirement:
+          requirements:
+            bani:
+              type: has money
+              amount: 20000.0
+          deny_commands:
+          - '[close]'
+          - '[message] &6&lLUCKYBLOCKS &8/ / &FYou don t have &6&l20,000$&7!'
+        right_click_commands:
+        - '[console] eco take %player_name% 20000'
+        - '[console] slb give 8 %player_name%'
+      '3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE5ZDI4YTg2MzJmYTRkODdjYTE5OWJiYzJlODhjZjM2OGRlZGQ1NTc0NzAxN2FlMzQ4NDM1NjlmN2E2MzRjNSJ9fX0=
+        slot: 20
+        amount: 16
+        display_name: '&6&lLUCKY BLOCKS &8▏ &a16 pieces'
+        lore:
+        - ''
+        - ' &fBuy 16 luckyblocks'
+        - ' &fPrice: &c40000$'
+        - ''
+        - ' &8Your balance: [&a%vault_eco_balance_fixed%&8]'
+        - ' &8(Right click to buy)'
+        - ''
+        left_click_commands:
+        - '[console] eco take %player_name% 40000'
+        - '[console] slb give 16 %player_name%'
+        left_click_requirement:
+          requirements:
+            bani:
+              type: has money
+              amount: 40000.0
+          deny_commands:
+          - '[close]'
+          - '[message] &6&lLUCKYBLOCKS &8/ / &FYou don t have &6&l40,000$&7!'
+        right_click_requirement:
+          requirements:
+            bani:
+              type: has money
+              amount: 40000.0
+          deny_commands:
+          - '[close]'
+          - '[message] &6&lLUCKYBLOCKS &8/ / &FYou don t have &6&l40,000$&7!'
+        right_click_commands:
+        - '[console] eco take %player_name% 40000'
+        - '[console] slb give 16 %player_name%'
+      '4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE5ZDI4YTg2MzJmYTRkODdjYTE5OWJiYzJlODhjZjM2OGRlZGQ1NTc0NzAxN2FlMzQ4NDM1NjlmN2E2MzRjNSJ9fX0=
+        slot: 21
+        amount: 32
+        display_name: '&6&lLUCKY BLOCKS &8▏ &a32 pieces'
+        lore:
+        - ''
+        - ' &fBuy 32 luckyblocks'
+        - ' &fPrice: &c80000$'
+        - ''
+        - ' &8Your balance: [&a%vault_eco_balance_fixed%&8]'
+        - ' &8(Right click to buy)'
+        - ''
+        left_click_commands:
+        - '[console] eco take %player_name% 80000'
+        - '[console] slb give 32 %player_name%'
+        left_click_requirement:
+          requirements:
+            bani:
+              type: has money
+              amount: 80000.0
+          deny_commands:
+          - '[close]'
+          - '[message] &6&lLUCKYBLOCKS &8/ / &FYou don t have &6&l80,000$&7!'
+        right_click_requirement:
+          requirements:
+            bani:
+              type: has money
+              amount: 80000.0
+          deny_commands:
+          - '[close]'
+          - '[message] &6&lLUCKYBLOCKS &8/ / &FYou don t have &6&l80,000$&7!'
+        right_click_commands:
+        - '[console] eco take %player_name% 80000'
+        - '[console] slb give 32 %player_name%'
+      '15':
+        material: IRON_PICKAXE
+        slot: 15
+        display_name: '&6&lOther ways of obtaining'
+        lore:
+        - ''
+        - ' &fAnother way you can get luckyblocks'
+        - ' &fis mining, while mining'
+        - ' &fyou have a 20% chance'
+        - ' &ato get a luckyblock!'
+        - ''
+      '1SD0':
+        material: GLOBE_BANNER_PATTERN
+        slot: 49
+        display_name: '&6&lInformations'
+        lore:
+        - ''
+        - ' &fThis is &eluckyblocks store,'
+        - ' &fclick on one of them'
+        - ' &7to buy luckyblocks'
+        - ''               
+                                               
+      Panels:
+        material: gray_stained_glass_pane
+        display_name: '&f'
+        slots:
+        - 36
+        - 37
+        - 38
+        - 39
+        - 40
+        - 41
+        - 42
+        - 43
+        - 44

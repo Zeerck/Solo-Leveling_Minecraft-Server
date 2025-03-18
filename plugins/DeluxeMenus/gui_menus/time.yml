@@ -1,0 +1,151 @@
+    menu_title: '&8Time Setter'
+    open_command:
+    - time
+    size: 36
+    items:
+      '1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjRkNzY1MWU5ZGViNWMyODEzODIwZmVkMzExZDU0MTExOWYzMTU1ZWFhYjU0OWQzYWQ1MmQyMDJiYzNmMGU3In19fQ==
+        slot: 10
+        amount: 1
+        display_name: ' &6&lMORNING'
+        lore:
+        - ''
+        - ' &fClick to set the'
+        - ' &amorning &ftime'
+        - ''
+        - ' &fPrice: &e500$'
+        - ''
+        left_click_commands:
+        - '[console] eco take %player_name% 500'
+        - '[console] time day'
+        left_click_requirement:
+          requirements:
+            bani:
+              type: has money
+              amount: 500.0
+          deny_commands:
+          - '[close]'
+          - '[message] &6&lSYSTEM &8/ / &FYou dont have &a500$&7!'
+        right_click_requirement:
+          requirements:
+            bani:
+              type: has money
+              amount: 500.0
+          deny_commands:
+          - '[close]'
+          - '[message] &6&lSYSTEM &8/ / &FYou dont have &a500$&7!'
+        right_click_commands:
+        - '[console] eco take %player_name% 500'
+        - '[console] time day'
+      '2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWMzNzgzMmM0MTM1MjU1NTU1M2Q4NmFhYWUxMzQxOTMzMWUzYWRlOTk3YmNlMGI4MTEzN2Q1MjA0ZTRjZGU3ZSJ9fX0=
+        slot: 11
+        amount: 1
+        display_name: ' &6&lAFTERNOON'
+        lore:
+        - ''
+        - ' &fClick to set the'
+        - ' &aafternoon &ftime'
+        - ''
+        - ' &fPrice: &e500$'
+        - ''
+        left_click_commands:
+        - '[console] eco take %player_name% 500'
+        - '[console] time 16:00'
+        left_click_requirement:
+          requirements:
+            bani:
+              type: has money
+              amount: 500.0
+          deny_commands:
+          - '[close]'
+          - '[message] &6&lSYSTEM &8/ / &FYou dont have &a500$&7!'
+        right_click_requirement:
+          requirements:
+            bani:
+              type: has money
+              amount: 500.0
+          deny_commands:
+          - '[close]'
+          - '[message] &6&lSYSTEM &8/ / &FYou dont have &a500$&7!'
+        right_click_commands:
+        - '[console] eco take %player_name% 500'
+        - '[console] time 16:00'
+      '3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2U4YzhmZjE5NjczMGI1ZWMxNzc3NDVkM2YzMmE2ZmMyYTZmOTljYWQ1NTc2NmFiMDMxM2I4NDM2NzZhNmM5ZiJ9fX0=
+        slot: 15
+        amount: 1
+        display_name: ' &6&lEVENING'
+        lore:
+        - ''
+        - ' &fClick to set the'
+        - ' &aevening &ftime'
+        - ''
+        - ' &fPrice: &e500$'
+        - ''
+        left_click_commands:
+        - '[console] eco take %player_name% 500'
+        - '[console] time 19:00'
+        left_click_requirement:
+          requirements:
+            bani:
+              type: has money
+              amount: 500.0
+          deny_commands:
+          - '[close]'
+          - '[message] &6&lSYSTEM &8/ / &FYou dont have &a500$&7!'
+        right_click_requirement:
+          requirements:
+            bani:
+              type: has money
+              amount: 500.0
+          deny_commands:
+          - '[close]'
+          - '[message] &6&lSYSTEM &8/ / &FYou dont have &a500$&7!'
+        right_click_commands:
+        - '[console] eco take %player_name% 500'
+        - '[console] time 19:00'
+      '4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg0ZTU2Y2FjZWY1NGNmOTNjMjRmNjgyZWU1MGQ4MjhiYmJiMDE2ZDk1MDM5ZmQ4ZDA2MzhiODdlOTEyYTVlNSJ9fX0=
+        slot: 16
+        amount: 1
+        display_name: ' &6&lNIGHT'
+        lore:
+        - ''
+        - ' &fClick to set the'
+        - ' &anight &ftime'
+        - ''
+        - ' &fPrice: &e500$'
+        - ''
+        left_click_commands:
+        - '[console] eco take %player_name% 500'
+        - '[console] time night'
+        left_click_requirement:
+          requirements:
+            bani:
+              type: has money
+              amount: 500.0
+          deny_commands:
+          - '[close]'
+          - '[message] &6&lSYSTEM &8/ / &FYou dont have &a500$&7!'
+        right_click_requirement:
+          requirements:
+            bani:
+              type: has money
+              amount: 500.0
+          deny_commands:
+          - '[close]'
+          - '[message] &6&lSYSTEM &8/ / &FYou dont have &a500$&7!'
+        right_click_commands:
+        - '[console] eco take %player_name% 500'
+        - '[console] time night'
+      '1SD0':
+        material: STICK
+        slot: 22
+        display_name: '&6&lInformations'
+        lore:
+        - ''
+        - ' &fIn this menu you can'
+        - ' &fchange the server'
+        - ' &aworld time'
+        - ''                                                    

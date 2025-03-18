@@ -1,0 +1,138 @@
+    menu_title: '&8Server Selector'
+    open_command: selector
+    size: 36
+    items:
+      '1':
+        material: COMPASS
+        slot: 10
+        display_name: '&6&lLobby'
+        lore:
+        - ' '
+        - '&8Click the compass to choose a gamemode!'
+        - ' '
+        - '&a%bungee_hub%&f currently online!'
+        left_click_commands:
+        - '[connect] hub'
+        right_click_commands:
+        - '[connect] hub'
+      '2':
+        material: GRASS_BLOCK
+        slot: 12
+        display_name: '&6&lSurvival'
+        lore:
+        - ''
+        - '&8Survival is a game mode'
+        - '&8where players are challenged'
+        - '&8to build and survive'
+        - '&8in a magical world.'
+        - '&8Your goal is to amass'
+        - '&8as much wealth as'
+        - '&8possible while you can build' 
+        - '&8anything on your own claim!'
+        - ' '
+        - '&a%bungee_survival% &fcurrently playing!'
+        left_click_commands:
+        - '[connect] survival'
+        right_click_commands:
+        - '[connect] survival'
+      '3':
+        material: TNT
+        slot: 13
+        display_name: '&6&lTNT Tag'
+        lore:
+        - ' '
+        - '&8Join a game and if you are it, you must pass'
+        - '&8the TNT to the other player. Keep tagging'
+        - '&8until the timer is up and the TNT explodes!'
+        - '&8Last man standing wins!'
+        - ' '
+        - '&a%bungee_tnttag% &fcurrently playing!'
+        left_click_commands:
+        - '[connect] tnttag'
+        right_click_commands:
+        - '[connect] tnttag'
+      '4':
+        material: RED_BED
+        slot: 14
+        display_name: '&6&lBedWars'
+        lore:
+        - ' '
+        - '&8You and your teammates are fighting for the'
+        - '&8leadership of the dream world. Collect iron'
+        - '&8and gold on your spawn island to buy a starts'
+        - '&8loadout. Rush to the middle islands to collect'
+        - '&8diamonds and emeralds. Fight your way through'
+        - '&8the dream world and be the last team standing!'
+        - ' '
+        - '&a%bungee_bedwars% &fcurrently playing!'
+        left_click_commands:
+        - '[connect] bedwars'
+        right_click_commands:
+        - '[connect] bedwars'
+      '5':
+        material: DIAMOND_SWORD
+        slot: 15
+        display_name: '&6&lSkyPvP'
+        lore:
+        - ' '
+        - '&8You will spawn with a kit and will have to grind'
+        - '&8your way up to earn the riches. Upgrade your gear'
+        - '&8and enchant your items. Build the ultimate kit and'
+        - '&8 battle through the skies!'
+        - ' '
+        - '&a%bungee_skypvp%&f currently playing!'
+        left_click_commands:
+        - '[connect] skypvp'
+        right_click_commands:
+        - '[connect] skypvp'
+      '6':
+        material: LAVA_BUCKET
+        slot: 16
+        display_name: '&6&lSkyBlock'
+        lore:
+        - ' '
+        - '&8Coming soon!'
+        - ' '
+        left_click_commands:
+        - '[connect] '
+        right_click_commands:
+        - '[connect] '
+      '7':
+        material: BOOK
+        slot: 19
+        display_name: '&6&lServer Information'
+        lore:
+        - ' '
+        - '&8Click to see information about the server!'
+        - ' '
+        left_click_commands:
+        - '[close]'
+        - '[message] &r'
+        - '[message] &f  &6&lServer Information'
+        - '[message] &r'
+        - '[message] &f  &fWebsite: &ewww.solusmc.net'
+        - '[message] &f  &fStore: &astore.solusmc.net'
+        - '[message] &f  &fDiscord: &dinvite.gg/solusmc'
+        - '[message] &r'
+        right_click_commands:
+        - '[close]'
+        - '[message] &r'
+        - '[message] &f  &6&lServer Information'
+        - '[message] &r'
+        - '[message] &f  &fWebsite: &ewww.solusmc.net'
+        - '[message] &f  &fStore: &astore.solusmc.net'
+        - '[message] &f  &fDiscord: &dinvite.gg/solusmc'
+        - '[message] &r'
+      'panels':
+        material: ORANGE_STAINED_GLASS_PANE
+        slots:
+        - 21
+        - 22
+        - 23
+        - 24
+        - 25
+        display_name: '&6&lComing Soon!'
+        lore:
+        - ''
+        - '&8Coming Soon!'
+        - ''

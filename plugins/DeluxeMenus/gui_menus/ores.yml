@@ -1,0 +1,222 @@
+    menu_title: '&8More ores'
+    open_command:
+    - moreores
+    - more ores
+    - customores
+    - custom ores
+    size: 45
+    items:
+      '1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODE0ZDc4NGViZGQ3ZmFiNjlmZWE0NWNhMWQ2MDQ4YjU1YjZkMzljYjgyOGY2OGI4NjMzZTE3ZTc3ZTY5NjQ2NiJ9fX0=
+        slot: 10
+        display_name: '&7&lBone Ore'
+        lore:
+        - ''
+        - ' &fDrops a random amount of'
+        - ' &fbonemeal. Every 3 bonemeal'
+        - ' &fwill be clumpet into 1 one.'
+        - ' '
+        - ' &7It can be found in &cnether'
+        - ''   
+      '2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDUwMDI5MmY0YWZlNTJkMTBmMjk5ZGZiMjYwMzYzMjI4MzA0NTAzMzFlMDAzMDg0YmIyMjAzMzM1MzA2NjRlMSJ9fX0=
+        slot: 19
+        display_name: '&c&lFire Ore'
+        lore:
+        - ''
+        - ' &fCombining 9 of this'
+        - ' &fmakes a'
+        - ' &fFire Crystal'
+        - ' ' 
+        - ' &7It can be found in &cnether'
+        - '' 
+      '3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjgyZWUyODliOTFmZjM5YTk3ZDM5YjlhYzVmYjlhOGU0MzQ4NDA0ZjI3NjQzYWYyNDk1ODU5MDI3YjM0NDUwMyJ9fX0=
+        slot: 28
+        display_name: '&4&lFire Crystal'
+        lore:
+        - ''
+        - ' &fCan be thrown.'
+        - ' &fIt solidifies liquids'
+        - ' &fand explodes on impact.'
+        - ' ' 
+        - ' &7It can be found in &cnether'
+        - '' 
+      '4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZhN2YxNzlkYjkxZGUwZjljNzU1OWE1MTUyY2ExMjg0Yjk5Mjg5YWRlYzhjNWM1ZTdkZWE5YWYyMjc4YWQ1In19fQ==
+        slot: 12
+        display_name: '&6&lKelp Ore'
+        lore:
+        - ''
+        - ' &fThis ore smelts into kelp,'
+        - ' &fwhich can then be cooked,'
+        - ' &fproviding a food source.'
+        - ' '
+        - ' &7It can be found in &aoverworld'
+        - ''  
+      '5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjgxOGQ2M2YwNTZlYjQ3OTYxM2QxYzRkODZlZDFiY2UwYjM3YmNmMzhlZDdkZDkzZWNiZmM2NmZhZGUxYmY2In19fQ==
+        slot: 13
+        display_name: '&6&lPetrified Wood'
+        lore:
+        - ''
+        - ' &fThis ore smelts into'
+        - ' &foak wood'
+        - ' ' 
+        - ' &7It can be found in &aoverworld'
+        - ''
+      '6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdkODg1YjMyYjBkZDJkNmI3ZjFiNTgyYTM0MTg2ZjhhNTM3M2M0NjU4OWEyNzM0MjMxMzJiNDQ4YjgwMzQ2MiJ9fX0=
+        slot: 14
+        display_name: '&6&lExperience Ore'
+        lore:
+        - ''
+        - ' &fDrops 1-4 experience'
+        - ' &forbs'
+        - ' ' 
+        - ' &7It can be found in &aoverworld'
+        - ''
+      '7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODExMmY4N2NlZTU3ODg5NGUyZDA3MjUzYWJiMTQ2NjI0N2NlZTQ4ZjE3MjdiYjlkMWVhYzUzZjhlMDU3MTAxMiJ9fX0=
+        slot: 15
+        display_name: '&6&lRandom Ore'
+        lore:
+        - ''
+        - ' &fDrops coal, iron, gold'
+        - ' &fdiamond or redstone ore'
+        - ' '
+        - ' &7It can be found in &aoverworld'
+        - '' 
+      '8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjAyMjZkNGMxZDMwZmJlYmVjYWU5MzlkYTkwMDYwM2U0Y2QwZmVkODU5MmExYmIzZTExZjlhYzkyMzkxYTQ1YSJ9fX0=
+        slot: 16
+        display_name: '&6&lPotion Ore'
+        lore:
+        - ''
+        - ' &fSplashes a random potion'
+        - ' &fwhen broken'
+        - ' ' 
+        - ' &7It can be found in &aoverworld'
+        - ''
+      '9':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWJiMTIyZTJmMjJkMzRjNjcxZmRkMmNmMTdjMjMxOGMzNzU1NDczMGY0YTkzNDc5NzEyN2M1ZGI1ZTdhIn19fQ==
+        slot: 21
+        display_name: '&6&lHealth Ore'
+        lore:
+        - ''
+        - ' &fCombining four of'
+        - ' &fthese creates a'
+        - ' &fMedkit'
+        - ' ' 
+        - ' &7It can be found in &aoverworld'
+        - ''
+      '10':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjdjN2RmNTJiNWU1MGJhZGI2MWZlZDcyMTJkOTc5ZTYzZmU5NGYxYmRlMDJiMjk2OGM2YjE1NmE3NzAxMjZjIn19fQ==
+        slot: 22
+        display_name: '&6&lMedkit'
+        lore:
+        - ''
+        - ' &fCan be used on a mob'
+        - ' &for player to heal them'
+        - ' &f6 healpoints'
+        - ' ' 
+        - ' &7It can be found in &aoverworld'
+        - ''
+      '11':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM3Y2FlNWM1MWViMTU1OGVhODI4ZjU4ZTBkZmY4ZTZiN2IwYjFhMTgzZDczN2VlY2Y3MTQ2NjE3NjEifX19
+        slot: 23
+        display_name: '&6&lGolden medkit'
+        lore:
+        - ''
+        - ' &fCan be used on a mob'
+        - ' &for player to heal them'
+        - ' &ffor 2 minutes'
+        - ' ' 
+        - ' &7It can be found in &aoverworld'
+        - ''
+      '12':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2NiZDcwZjczZTJlMDk1NjZlZjkxNGM2OTdiMTNmNDhiOTdiZmQ2YzExYzgzZTU0MGExNWZmNGQ3MzZiOWMxNiJ9fX0=
+        slot: 24
+        display_name: '&6&lLiquid Ore'
+        lore:
+        - ''
+        - ' &fThis ore smelts into'
+        - ' &fLiquid Ingots'
+        - ' ' 
+        - ' &7It can be found in &aoverworld'
+        - ''
+      '13':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTY3OTkxOGU1MmYzZjhmMmNhYmJiZWFjNmE5NzY4MWYyZjhhYTEwYzBiMmU4MTg1OTI4ODVhNGEwZTlkMjI3In19fQ==
+        slot: 25
+        display_name: '&6&lLiquid Ingot'
+        lore:
+        - ''
+        - ' &fSurround a turtle shell'
+        - ' &fwith these in crafting menu'
+        - ' &fto make a Scuba Helmet'
+        - ' ' 
+        - ' &7It can be found in &aoverworld'
+        - ''
+      '14':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM3ODQzNzMwZjBjZGFkYTA4NDc3N2EyMDI5YWQ3YTVmZWExZDgzODg2YWE2Y2I0NDM2ZTRhYTY1YTRkODlkMSJ9fX0=
+        slot: 30
+        display_name: '&6&lScuba Helmet'
+        lore:
+        - ''
+        - ' &fAllow its wearer to'
+        - ' &fbreathe underwater for'
+        - ' &f20 seconds'
+        - ' '
+        - ' &7It can be found in &aoverworld'
+        - '' 
+      '15':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTYzODhmNzQ2ZTZjNTMxNWYzNDQ3MWM2ZTVmMWNmOTRhZDc2OTY3ZGIzNjAwYWUxMjEyZmYzMDVmODI0MmE3MiJ9fX0=
+        slot: 31
+        display_name: '&5&lHardened End Stone'
+        lore:
+        - ''
+        - ' &fDrops phantom membrane,'
+        - ' &fdragon breath, shulker shells'
+        - ' &fwhen broken with diamond pick'
+        - ' ' 
+        - ' &7It can be found in &5end'
+        - ''
+      '16':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDY5OTRkNzFiODc1ZjA4N2U2NGRlYTliNGEwYTVjYjlmNGViOWFiMGU4ZDkwNjBkZmRlN2Y2ODAzYmFhMTc3OSJ9fX0=
+        slot: 32
+        display_name: '&5&lPearl Fragment'
+        lore:
+        - ''
+        - ' &fUsed to made'
+        - ' &fUpgraded perals and'
+        - ' &fRush pearls'
+        - ' ' 
+        - ' &7It can be found in &5end'
+        - ''
+      '17':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWNiN2MyMWNjNDNkYzE3Njc4ZWU2ZjE2NTkxZmZhYWIxZjYzN2MzN2Y0ZjZiYmQ4Y2VhNDk3NDUxZDc2ZGI2ZCJ9fX0=
+        slot: 33
+        display_name: '&5&lUpgraded Pearl'
+        lore:
+        - ''
+        - ' &fEnder pearl that change'
+        - ' &fdirection depending on'
+        - ' &fwhere the player is looking.'
+        - ' &fThey are crafted from'
+        - ' &f4 pearl fragments'
+        - ' ' 
+        - ' &7It can be found in &5end'
+        - ''
+      '18':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTJjMmY2ZmE3ZWM1MzA0MzVjNDMxNTcyOTM4YjlmZWI5NTljNDIyOThlNTU1NDM0MDI2M2M2NTI3MSJ9fX0=
+        slot: 34
+        display_name: '&5&lRush Pearl'
+        lore:
+        - ''
+        - ' &fBehave like Upgraded Pearls'
+        - ' &fbut player can ride them.'
+        - ' &fThey are crafted from'
+        - ' &f9 pearl fragments'
+        - ' ' 
+        - ' &7It can be found in &5end'
+        - ''

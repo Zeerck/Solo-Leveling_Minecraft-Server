@@ -1,0 +1,129 @@
+    menu_title: '&8Staff Ranks'
+    open_command:
+    - staffranks
+    size: 36
+    items:
+      '1':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM1MTEyOThkN2ZmZDRjOWJhNmY4ZGNhNzFkMzNiMWQyOTE2Y2VjMzExOGRjNGFmMDFjNmRhNjk1NjcwMjczZSJ9fX0=
+        slot: 13
+        display_name: '&6&lTrainee'
+        lore:
+        - ''
+        - ' &fRank informations:'
+        - ''
+        - '  &fThis rank has access to: &e/fly,'
+        - '  &f/hat, /tptoggle, /tp, /feed,'
+        - '  &f/heal, /kick, /mute and&e /unmute'
+        - ''
+        - ' &fPrefix: &aTrainee'
+        - ''  
+      '2':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVkYjMxMjA2N2JlMWQ1YzRmMTQ3OGFmM2NhMmY2Y2Y4MTA0YWI0Y2NiZmY1NzkxN2M4NTc4ZGFhMTUwMDJjMiJ9fX0=
+        slot: 14
+        display_name: '&6&lBuilder'
+        lore:
+        - ''
+        - ' &fRank informations:'
+        - ''
+        - '  &fThis rank has access to: &e/fly,'
+        - '  &f/hat, /tptoggle, /tp, /feed,'
+        - '  &f/heal and&e /kick'
+        - ''
+        - ' &fPrefix: &2Builder'
+        - ''
+      '3':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxYzU3OTc0ZjEwMmQzZGViM2M1M2Q0MmZkZTkwOWU5YjM5Y2NiYzdmNzc2ZTI3NzU3NWEwMmQ1MWExOTk5ZSJ9fX0=
+        slot: 15
+        display_name: '&6&lModerator'
+        lore:
+        - ''
+        - ' &fRank informations:'
+        - ''
+        - '  &fThis rank has access to: &e/fly,'
+        - '  &f/hat, /tptoggle, /tp, /feed,'
+        - '  &f/heal, /kick, /mute, /unmute'
+        - '  &f/vanish, /invsee, /warn,'
+        - '  &f/ban, /unban, /unwarn and &e/tempmute'
+        - ''
+        - ' &fPrefix: &5Moderator'
+        - ''  
+      '4':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAxODQzZWM0M2YwODhjOTYzZmZjM2UyZjcxYzY2ZTMxNTU5NDNiMTc3YTFhMzU5ODJiMTIwZjZmNjQ4MjJiYyJ9fX0=
+        slot: 16
+        display_name: '&6&lSr Moderator'
+        lore:
+        - ''
+        - ' &fRank informations:'
+        - ''
+        - '  &fThis rank has access to: &e/fly,'
+        - '  &f/hat, /tptoggle, /tp, /feed,'
+        - '  &f/heal, /kick, /mute, /unmute'
+        - '  &f/vanish, /invsee, /warn,'
+        - '  &f/ban, /unban, /unwarn, /tempmute'
+        - '  &f/tpo, /whois, /seen, /gamemode,'
+        - '  &f/banip, /tempban and &eothers'
+        - ''
+        - ' &fPrefix: &cSr Moderator'
+        - ''  
+      '5':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiYzk2NWQ1NzljM2M2MDM5ZjBhMTdlYjdjMmU2ZmFmNTM4YzdhNWRlOGU2MGVjN2E3MTkzNjBkMGE4NTdhOSJ9fX0=
+        slot: 22
+        display_name: '&6&lAdmin'
+        lore:
+        - ''
+        - ' &fRank informations:'
+        - ''
+        - '  &fIt has access to all commands,'
+        - '  &fexcept those related to security'
+        - ''
+        - ' &fPrefix: &9Admin'
+        - ''
+      '6':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTFlZDlhYmY1MWZlNGVhODRjZmNiMjcyOTdmMWJjNTRjZDM4MmVkZjg1ZTdiZDZlNzVlY2NhMmI4MDY2MTEifX19
+        slot: 23
+        display_name: '&6&lManager'
+        lore:
+        - ''
+        - ' &fRank informations:'
+        - ''
+        - '  &fIt has access to all &ecommands'
+        - ''
+        - ' &fPrefix: &cManager'
+        - ''  
+      '7':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDA1Mzg1MTUyN2M0YzllZjMwYTYxZmIwNjdlYmNlOTU3YzcyNmUxNjg3ZjhiNTMwZmI0YTZiZWViYTQzOGJkIn19fQ==
+        slot: 24
+        display_name: '&6&lDeveloper'
+        lore:
+        - ''
+        - ' &fRank informations:'
+        - ''
+        - '  &fIt has access to all &ecommands'
+        - ''
+        - ' &fPrefix: &4Developer'
+        - ''
+      '8':
+        material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2RlMzNjOTVmZWMxYjhkOTg4MjUwZjVmNWIzYTI0ODU3NDI0MzlmYWVhYTc1ZWQ1MDZlYTAxZDc1ZTE3ZjIxIn19fQ==
+        slot: 25
+        display_name: '&6&lOwner'
+        lore:
+        - ''
+        - ' &fRank informations:'
+        - ''
+        - '  &fIt has access to all &ecommands'
+        - ''
+        - ' &fPrefix: &4Owner'
+        - ''
+      'panels':
+        material: GRAY_STAINED_GLASS_PANE
+        display_name: '&6&lINFORMATIONS'
+        lore:
+        - ''
+        - ' &fThis is the list'
+        - ' &fof staff &aranks'
+        - ''
+        slots:
+         - 10
+         - 11
+         - 19
+         - 20

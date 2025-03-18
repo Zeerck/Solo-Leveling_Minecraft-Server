@@ -1,0 +1,37 @@
+    menu_title: '&8Ranks list'
+    open_command:
+    - ranks
+    size: 36
+    items:
+      '1':
+        material: PAPER
+        slot: 12
+        display_name: '&6&lStaff ranks'
+        lore:
+        - ''
+        - ' &fClick right here to see'
+        - ' &fthe list of &astaff ranks'
+        - ' '   
+        left_click_commands:
+        - '[player] staffranks'
+        right_click_commands:
+        - '[player] staffranks'
+      '2':
+        material: SUNFLOWER
+        slot: 14
+        display_name: '&6&lDonor ranks'
+        lore:
+        - ''
+        - ' &fClick right here to see'
+        - ' &fthe list of &adonor ranks'
+        - ' '   
+        left_click_commands:
+        - '[player] donorranks'
+        right_click_commands:
+        - '[player] donorranks'
+      '3':
+        material: GRAY_STAINED_GLASS_PANE
+        display_name: '&F'
+        slots:
+         - 21
+         - 23

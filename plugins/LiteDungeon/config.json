@@ -1,0 +1,12 @@
+{
+  "version": "2.12.3",
+  "settings": {
+    "plugin_prefix": "{#AA455E}[LiteDungeon]§7 %msg%",
+    "unload_world_after_sec": "30",
+    "key_cooldown": 10,
+    "time_format": "%days_d %%hours_h %%minutes_min %%seconds_sec %",
+    "portal_protected": "false",
+    "auto_update_customization": true,
+    "disable_animation_for_op": "false"
+  }
+}

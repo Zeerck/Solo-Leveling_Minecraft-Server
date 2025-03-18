@@ -1,0 +1,10 @@
+{
+  "version": "3.1.0",
+  "settings": {
+    "plugin_prefix": "{#2E7F80}[LiteBase]§7 %msg%",
+    "unload_world_after_sec": 30,
+    "auto_update_customization": true,
+    "disableAnimationForOp": false,
+    "oneWorldMode": false
+  }
+}

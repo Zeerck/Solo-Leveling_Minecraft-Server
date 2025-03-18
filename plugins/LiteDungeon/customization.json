@@ -1,0 +1,227 @@
+{
+  "translation": {
+    "gui.delay": "Delay",
+    "gui.close": "Close",
+    "gui.world_folder": "World folder",
+    "gui.kill_all_desk1": "Killing all entities with the same ID",
+    "gui.get": "Get",
+    "gui.start": "Start",
+    "gui.back_world": "Back to world",
+    "game.party_join": "{#83D3FF}%player_name% {#6AFFB3}entered the party",
+    "gui.kill": "Kill",
+    "gui.reset": "Reset",
+    "gui.teleport_item": "Teleportation Item",
+    "gui.back": "Back",
+    "party.dungeon_start": "The dungeon has started!",
+    "gui.put_item": "§7Put item here to set it",
+    "gui.title": "Title",
+    "gui.on": "ON",
+    "gui.using": "Using",
+    "gui.using_desk1": "Clicking on blocks, doors, levers, chests and other interactions",
+    "gui.summon": "Summon",
+    "gui.settings": "Dungeon Settings",
+    "gui.off": "OFF",
+    "gui.time": "§7Time",
+    "gui.save_world": "Save world",
+    "gui.regen": "Regeneration",
+    "gui.rc": "R-Click",
+    "gui.blocked_elytra": "Blocked Elytra",
+    "gui.delete_block_desk": "Removes the block the frame is on without removing the trigger",
+    "gui.chance": "Chance",
+    "gui.place": "Place",
+    "gui.treasure_patterns": "Treasure patterns",
+    "game.end_time": "Time is over",
+    "gui.movement_desk1": "Triggers when a player walks nearby",
+    "gui.health": "Health",
+    "gui.break_desk1": "Triggers when the player destroy block",
+    "gui.set_id": "Set ID",
+    "gui.movement": "Movement",
+    "gui.leave": "Leave",
+    "gui.party_owner_actions": "{#FFB47E}Q §7- set owner\n{#FFB47E}R-Click §7- kick",
+    "gui.material": "Material",
+    "gui.exit": "Exit",
+    "gui.add": "Add",
+    "gui.protection": "Protection",
+    "gui.delete": "Delete",
+    "gui.environment": "Environment",
+    "gui.cfg_update": "Config successfully updated",
+    "gui.destroy_start": "Destroy at start",
+    "gui.message": "Chat message",
+    "gui.boss_bar_message": "{#aa455e}Time: §6%time%",
+    "game.key_cooldown": "Wait for {#FF7A92}%time%",
+    "gui.command": "Commands",
+    "gui.permission": "Permission",
+    "game.end_players": "The players left the dungeon and the world collapsed",
+    "gui.entity": "Entity",
+    "gui.name": "Name",
+    "gui.enterChat": "Enter value in chat",
+    "gui.last_world": "Last world",
+    "gui.kill_desk1": "Killing this entity",
+    "gui.trigger": "Trigger",
+    "gui.acceptedValue": "Values successfully accepted",
+    "gui.current_world": "Current world",
+    "gui.title_desk1": "Shows the player TITLE when action is activated",
+    "gui.invalidValue": "Invalid data entered",
+    "gui.lc": "L-Click",
+    "gui.edit_mode": "Edit mode",
+    "gui.message_desk": "Shows the player chat message when action is activated",
+    "game.party_leave": "{#83D3FF}%player_name% {#FF7A92}left the party",
+    "gui.sound_desk1": "Plays a sound when action is activated",
+    "gui.confirm_delete": "Confirm delete",
+    "gui.kill_all": "Kill All",
+    "gui.owner": "Owner",
+    "gui.block_command": "§7This command is blocked during dungeon",
+    "gui.icon": "Icon",
+    "gui.sound": "Sound",
+    "gui.cfg_update_err": "Error updating config",
+    "gui.action": "Action",
+    "gui.break": "Break",
+    "gui.example": "Example",
+    "gui.dungeon": "Dungeon",
+    "gui.spawn_chest": "Spawn Treasure",
+    "gui.next": "Next",
+    "gui.create": "Create",
+    "gui.set_block": "Set block",
+    "gui.no_key": "You don't have the key to the dungeon!"
+  },
+  "guis": {
+    "party_dungeons": {
+      "sound": "ENTITY_EXPERIENCE_ORB_PICKUP:0.5:2",
+      "title": "Dungeons",
+      "icons": [
+        {
+          "id": "1",
+          "lore": [
+            "{#82A7C3}Active parties: {#FFB47E}%party%"
+          ],
+          "pattern": "dungeon"
+        },
+        {
+          "id": "0",
+          "material": "WHITE_STAINED_GLASS_PANE"
+        }
+      ],
+      "map": [
+        "0 0 0 0 0 0 0 0 0",
+        "0 1 1 1 1 1 1 1 0",
+        "0 0 0 0 0 0 0 0 0"
+      ]
+    },
+    "parties": {
+      "sound": "ENTITY_EXPERIENCE_ORB_PICKUP:0.5:2",
+      "title": "%dungeon_name%",
+      "icons": [
+        {
+          "id": "1",
+          "displayName": "{#FFB47E}%player_name%",
+          "lore": [
+            "§7%now_players%/%max_players%"
+          ],
+          "pattern": "party"
+        },
+        {
+          "id": "B",
+          "displayName": "{#93cfec}%gui.back%",
+          "material": "BLACK_STAINED_GLASS_PANE",
+          "pattern": "back"
+        },
+        {
+          "id": "C",
+          "displayName": "{#93cfec}%gui.create%",
+          "material": "NETHERITE_SWORD",
+          "pattern": "create"
+        },
+        {
+          "id": "0",
+          "material": "WHITE_STAINED_GLASS_PANE"
+        }
+      ],
+      "map": [
+        "0 0 0 0 C 0 0 0 0",
+        "0 1 1 1 1 1 1 1 0",
+        "B 0 0 0 0 0 0 0 0"
+      ]
+    },
+    "party": {
+      "sound": "ENTITY_EXPERIENCE_ORB_PICKUP:0.5:2",
+      "title": "%dungeon_name%",
+      "icons": [
+        {
+          "id": "2",
+          "displayName": "{#93cfec}%player_name%",
+          "lore": [
+            "{#82A7C3}%owner%",
+            "%if_owner%"
+          ],
+          "pattern": "player",
+          "data": {
+            "if_owner": "%gui.party_owner_actions%"
+          }
+        },
+        {
+          "id": "B",
+          "displayName": "{#93cfec}%gui.leave%",
+          "material": "BARRIER",
+          "pattern": "leave"
+        },
+        {
+          "id": "1",
+          "pattern": "dungeon"
+        },
+        {
+          "id": "0",
+          "material": "WHITE_STAINED_GLASS_PANE"
+        },
+        {
+          "id": "C",
+          "displayName": "{#82A7C3}%gui.close%: {#FFB47E}%status%",
+          "material": "WARPED_DOOR",
+          "pattern": "close"
+        },
+        {
+          "id": "S",
+          "displayName": "{#82A7C3}%gui.start%",
+          "material": "TRIPWIRE_HOOK",
+          "pattern": "start"
+        },
+        {
+          "id": "C",
+          "displayName": "{#82A7C3}%gui.close%: {#FFB47E}%status%",
+          "material": "WARPED_DOOR",
+          "pattern": "close"
+        },
+        {
+          "id": "S",
+          "displayName": "{#82A7C3}%gui.start%",
+          "material": "TRIPWIRE_HOOK",
+          "pattern": "start"
+        }
+      ],
+      "map": [
+        "C 0 0 0 0 0 2 2 2",
+        "0 0 1 0 S 0 2 2 2",
+        "B 0 0 0 0 0 2 2 2"
+      ]
+    },
+    "example": {
+      "sound": "ENTITY_EXPERIENCE_ORB_PICKUP:2:0.5",
+      "title": "LiteDungeon",
+      "icons": [
+        {
+          "id": "1",
+          "displayName": "",
+          "material": "",
+          "lore": [],
+          "pattern": "",
+          "actions": [],
+          "sound": "ENTITY_EXPERIENCE_ORB_PICKUP:0.5:2"
+        }
+      ],
+      "map": [
+        "0 0 0 0 0 0 0 0 0",
+        "0 0 0 0 0 0 0 0 0",
+        "0 0 0 0 0 0 0 0 0"
+      ]
+    }
+  }
+}

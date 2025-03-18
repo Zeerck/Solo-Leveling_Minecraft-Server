@@ -1,0 +1,157 @@
+{
+  "translation": {
+    "gui.no_base": "You have no bases",
+    "settings.setLang": "Language set successfully",
+    "gui.portal": "Portal item",
+    "gui.get": "Get",
+    "gui.teleportTo": "Teleport",
+    "gui.putToSet2": "§7to set type",
+    "gui.putToSet1": "§7Move the §6item here",
+    "gui.key": "Key",
+    "gui.private": "{#D42433}Private",
+    "gui.back": "Back",
+    "gui.rightClick": "R-Click",
+    "gui.base": "Base",
+    "gui.setSpawn": "Set spawn point",
+    "gui.on": "§r§aOn",
+    "gui.off": "§r§cOff",
+    "gui.chance": "Chance",
+    "gui.recharge": "Recharge",
+    "gui.putToSet2Icon": "§7to set icon",
+    "gui.public": "{#59D44C}Public",
+    "gui.access": "Access",
+    "gui.join": "Join",
+    "gui.add": "Add",
+    "gui.members": "Members",
+    "gui.delete": "Delete",
+    "gui.saveDesk": "Save the current world",
+    "gui.block_protection": "Block protection",
+    "gui.permission": "Permission",
+    "gui.delete_base": "§c%code% §7or §ccancel",
+    "gui.leftClick": "L-Click",
+    "gui.name": "Name",
+    "gui.acceptDelete": "Confirm Deletion",
+    "gui.enterChat": "Enter value in chat",
+    "game.noPermission": "You do not have permission",
+    "gui.privateDesk2": "placing and breaking blocks",
+    "gui.privateDesk1": "Prevents the player from",
+    "gui.edit": "Edit",
+    "gui.shift": "Shift",
+    "gui.folder": "World Folder",
+    "chat.cfgUpdateErr": "Error updating config",
+    "gui.acceptedValue": "Values successfully accepted",
+    "gui.save": "Save",
+    "gui.invalidValue": "Invalid data entered",
+    "chat.setLang": "Language set",
+    "gui.edit_mode": "Edit mode",
+    "chat.cfgUpdate": "Config successfully updated",
+    "gui.backWorld": "Return to the normal world",
+    "game.portalReload": "The portal is charging",
+    "gui.owner": "{#2E7F80}Owner: {#47C5C7}%player_name%",
+    "gui.icon": "Icon",
+    "gui.example": "Example",
+    "gui.folder_desk": "Link to world folder",
+    "gui.next": "Next",
+    "gui.create": "Create",
+    "gui.portal_desk": "The item allows you \n§7move to the base"
+  },
+  "guis": {
+    "editMenu": {
+      "title": "%base_name%",
+      "icons": [
+        {
+          "id": "1",
+          "lore": [
+            "%status%",
+            "§6%gui.leftClick% §7- %gui.key%",
+            "§6%gui.rightClick% §7- %gui.access%"
+          ],
+          "pattern": "base",
+          "sound": "BLOCK_ENCHANTMENT_TABLE_USE"
+        },
+        {
+          "id": "2",
+          "displayName": "§f%gui.name%",
+          "material": "NAME_TAG",
+          "lore": [
+            "§6%gui.leftClick% §7- %gui.edit%"
+          ],
+          "pattern": "editName",
+          "sound": "ITEM_BOOK_PAGE_TURN"
+        },
+        {
+          "id": "3",
+          "displayName": "{#47C5C7}%gui.members%",
+          "material": "PLAYER_HEAD",
+          "lore": [
+            "§6%gui.leftClick% §7- %gui.edit%"
+          ],
+          "pattern": "members",
+          "sound": "ITEM_BOOK_PAGE_TURN"
+        },
+        {
+          "id": "4",
+          "displayName": "§f%gui.back%",
+          "material": "BLACK_STAINED_GLASS_PANE",
+          "pattern": "back",
+          "sound": "ITEM_BOOK_PAGE_TURN"
+        },
+        {
+          "id": "5",
+          "displayName": "{#47C5C7}%gui.setSpawn%",
+          "material": "RED_BED",
+          "pattern": "spawn",
+          "sound": "BLOCK_RESPAWN_ANCHOR_CHARGE"
+        }
+      ],
+      "map": [
+        "2 0 0 0 0 0 0 0 3",
+        "0 0 0 0 1 0 0 0 0",
+        "4 0 0 0 0 0 0 0 5"
+      ]
+    },
+    "members": {
+      "title": "%gui.members%",
+      "icons": [
+        {
+          "id": "1",
+          "displayName": "{#47C5C7}%player_name%",
+          "pattern": "member",
+          "sound": "ITEM_BOOK_PAGE_TURN"
+        },
+        {
+          "id": "2",
+          "displayName": "%gui.back%",
+          "material": "BLACK_STAINED_GLASS_PANE",
+          "pattern": "back",
+          "sound": "ITEM_BOOK_PAGE_TURN"
+        }
+      ],
+      "map": [
+        "0 1 1 1 1 1 1 1 0",
+        "0 1 1 1 1 1 1 1 0",
+        "2 0 0 0 0 0 0 0 0"
+      ]
+    },
+    "menu": {
+      "title": "LiteBase",
+      "icons": [
+        {
+          "id": "1",
+          "lore": [
+            "%status%",
+            "§6%gui.leftClick% §7- %gui.teleportTo%",
+            "§6%gui.rightClick% §7- %gui.edit%"
+          ],
+          "pattern": "base",
+          "sound": "BLOCK_ENCHANTMENT_TABLE_USE"
+        }
+      ],
+      "map": [
+        "0 0 0 0 0 0 0 0 0",
+        "0 1 0 1 0 1 0 1 0",
+        "0 0 0 0 0 0 0 0 0"
+      ]
+    }
+  }
+}

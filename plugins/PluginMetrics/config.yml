@@ -1,5 +1,5 @@
 # http://mcstats.org
 
-opt-out: false
+opt-out: true
 guid: 60b783c9-0f9b-41f0-84ce-33eee1fd67a3
 debug: false

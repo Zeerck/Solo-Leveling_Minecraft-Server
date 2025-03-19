@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 26.241.79.41
+ip-address: 127.0.0.1
 afk: false
 socialspy: false
 npc: false
@@ -16,15 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1742323423928
-  login: 1742322761104
+  logout: 1742410538467
+  login: 1742409919663
 money: '0'
 last-account-name: Zeerck
 logoutlocation:
   world: 52de0b3b-c714-487c-88fd-08000d34e295
   world-name: world
-  x: 198.5289730637089
-  y: 74.0
-  z: -459.4932399905333
-  yaw: -88.677734375
-  pitch: 36.742523193359375
+  x: 192.57806095668414
+  y: 71.0
+  z: -447.30000001192093
+  yaw: -174.01817321777344
+  pitch: 4.855747222900391
+lastlocation:
+  world: 52de0b3b-c714-487c-88fd-08000d34e295
+  world-name: world
+  x: 208.5
+  y: 72.0
+  z: -467.5
+  yaw: -0.5006842613220215
+  pitch: 1.0159120559692383

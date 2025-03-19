@@ -4,5 +4,11 @@
     "name": "Vizart2",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "71aa0a0a-99a9-328a-943d-4892c565a7e4",
+    "name": "Zeerck",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

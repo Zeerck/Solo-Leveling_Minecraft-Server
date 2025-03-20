@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1742410538467
-  login: 1742409919663
+  logout: 1742457323281
+  login: 1742457236337
 money: '0'
 last-account-name: Zeerck
 logoutlocation:
   world: 52de0b3b-c714-487c-88fd-08000d34e295
   world-name: world
-  x: 192.57806095668414
-  y: 71.0
-  z: -447.30000001192093
-  yaw: -174.01817321777344
-  pitch: 4.855747222900391
+  x: 210.54680910174653
+  y: 72.0
+  z: -469.76778328524443
+  yaw: 22.371225357055664
+  pitch: 6.010176181793213
 lastlocation:
   world: 52de0b3b-c714-487c-88fd-08000d34e295
   world-name: world

@@ -1,5 +1,0 @@
-options:
-  onWorldChange: true
-  spawnCommand: true
-Worlds:
-  world: world , 208.5 , 72.0 , -467.5 , 0.014215708 , 1.6379356E-4

@@ -1,11 +1,11 @@
 uuid: 71aa0a0a-99a9-328a-943d-4892c565a7e4
 skills:
   auraskills/fighting:
-    level: 0
-    xp: 0.0
+    level: 1
+    xp: 58.0
   auraskills/agility:
     level: 0
-    xp: 0.0
+    xp: 32.876
   auraskills/defense:
     level: 0
     xp: 0.0

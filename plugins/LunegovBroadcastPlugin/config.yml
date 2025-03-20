@@ -1,0 +1,15 @@
+broadcast-prefix: '[LUNEGOV]'
+broadcast-messages:
+- Лунегов приветсвует вас на сервере!
+- Ну давайте запишем
+- Можете не писать...
+broadcast-messages-delay-in-minutes: 5
+broadcast-message-to-player-in-chat: true
+world-spawn-location:
+  ==: org.bukkit.Location
+  world: world
+  x: 208.0
+  y: 72.0
+  z: -468.0
+  pitch: 0.0
+  yaw: 0.0
